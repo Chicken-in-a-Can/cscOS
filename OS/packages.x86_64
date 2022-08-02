@@ -30,6 +30,7 @@ f2fs-tools
 fatresize
 fsarchiver
 gnu-netcat
+go
 gpart
 gpm
 gptfdisk
@@ -85,6 +86,7 @@ openssh
 openvpn
 partclone
 parted
+pam
 partimage
 pcsclite
 plasma-desktop
@@ -126,6 +128,7 @@ wvdial
 xfsprogs
 xl2tpd
 xorg
+xorg-xauth
 zsh
 
 # AUR packages
