@@ -2,6 +2,7 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
+archlinux-keyring
 b43-fwcutter
 base
 bind
@@ -28,7 +29,9 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
+firefox
 fsarchiver
+gcc
 gnu-netcat
 go
 gpart
@@ -60,9 +63,11 @@ livecd-sounds
 lsscsi
 lvm2
 lynx
+make
 man-db
 man-pages
 mc
+mcookie
 mdadm
 memtest86+
 mkinitcpio
@@ -87,6 +92,7 @@ openvpn
 partclone
 parted
 pam
+pam-selinux
 partimage
 pcsclite
 plasma-desktop
@@ -103,6 +109,7 @@ rxvt-unicode-terminfo
 screen
 sdparm
 sg3_utils
+shutdown
 smartmontools
 sof-firmware
 squashfs-tools
@@ -114,6 +121,7 @@ terminus-font
 testdisk
 tmux
 tpm2-tss
+tput
 udftools
 usb_modeswitch
 usbmuxd
@@ -127,6 +135,7 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+xcb
 xorg
 xorg-xauth
 zsh
