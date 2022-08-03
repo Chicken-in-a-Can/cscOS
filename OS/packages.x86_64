@@ -6,6 +6,7 @@ archlinux-keyring
 b43-fwcutter
 base
 bind
+breeze
 brltty
 broadcom-wl
 btrfs-progs
@@ -105,6 +106,7 @@ rp-pppoe
 rsync
 rxvt-unicode-terminfo
 screen
+sddm
 sdparm
 sg3_utils
 smartmontools
@@ -137,4 +139,3 @@ zsh
 
 # AUR packages
 yay
-ly
