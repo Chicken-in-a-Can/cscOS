@@ -3,6 +3,6 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/root/.calamares/calamares
+Exec=/root/.calamares/calamares -d
 Name=Installer
 Icon=/root/.cala.png

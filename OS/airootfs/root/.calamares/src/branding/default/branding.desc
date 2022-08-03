@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
-    shortProductName:    Generic
-    version:             2020.2 LTS
-    shortVersion:        2020.2
-    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
-    shortVersionedName:  FancyGL 2020.2
-    bootloaderEntryName: FancyGL
+    productName:         "cscOS"
+    shortProductName:    cscOS
+    version:             0.1.0
+    shortVersion:        0.1.0
+    versionedName:       cscOS GNU/Linux Version 0.1.0 
+    shortVersionedName:  cscOS 0.1.0
+    bootloaderEntryName: cscOS
     productUrl:          https://calamares.io/
     supportUrl:          https://github.com/calamares/calamares/wiki
     knownIssuesUrl:      https://github.com/calamares/calamares/issues
