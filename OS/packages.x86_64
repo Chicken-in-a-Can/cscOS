@@ -67,7 +67,6 @@ make
 man-db
 man-pages
 mc
-mcookie
 mdadm
 memtest86+
 mkinitcpio
@@ -92,7 +91,6 @@ openvpn
 partclone
 parted
 pam
-pam-selinux
 partimage
 pcsclite
 plasma-desktop
@@ -109,7 +107,6 @@ rxvt-unicode-terminfo
 screen
 sdparm
 sg3_utils
-shutdown
 smartmontools
 sof-firmware
 squashfs-tools
@@ -121,7 +118,6 @@ terminus-font
 testdisk
 tmux
 tpm2-tss
-tput
 udftools
 usb_modeswitch
 usbmuxd
@@ -135,7 +131,6 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-xcb
 xorg
 xorg-xauth
 zsh
