@@ -79,6 +79,8 @@ mtools
 nano
 nbd
 ndisc6
+neofetch
+neovim
 networkmanager
 nfs-utils
 nilfs-utils
@@ -99,6 +101,7 @@ plasma-desktop
 ppp
 pptpclient
 pv
+python
 qemu-guest-agent
 refind
 reflector
@@ -136,6 +139,7 @@ xfsprogs
 xl2tpd
 xorg
 xorg-xauth
+yaml-cpp
 zsh
 
 # AUR packages
