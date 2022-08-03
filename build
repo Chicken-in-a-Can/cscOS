@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir build
+sudo mkarchiso -w build -v -o ./ OS
