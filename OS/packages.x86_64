@@ -6,6 +6,7 @@ archlinux-keyring
 b43-fwcutter
 base
 bind
+boost
 breeze
 brltty
 broadcom-wl
@@ -56,6 +57,7 @@ konsole
 less
 lftp
 libfido2
+libpwquality
 libusb-compat
 linux
 linux-atm
