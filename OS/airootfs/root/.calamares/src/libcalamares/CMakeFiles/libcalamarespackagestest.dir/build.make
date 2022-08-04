@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/depend.make
@@ -72,30 +72,30 @@ include src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o: src/libcalamares/libcalamarespackagestest_autogen/mocs_compilation.cpp
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o: src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/libcalamares/libcalamarespackagestest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/libcalamares && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/libcalamares/libcalamarespackagestest_autogen/mocs_compilation.cpp
 
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/libcalamares/libcalamarespackagestest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/libcalamares && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/libcalamares/libcalamarespackagestest_autogen/mocs_compilation.cpp > CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/libcalamares/libcalamarespackagestest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/libcalamares && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/libcalamares/libcalamarespackagestest_autogen/mocs_compilation.cpp -o CMakeFiles/libcalamarespackagestest.dir/libcalamarespackagestest_autogen/mocs_compilation.cpp.s
 
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o: src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/flags.make
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o: ../src/libcalamares/packages/Tests.cpp
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o: src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o -MF CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o.d -o CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o -c /home/bob/Documents/calamares/src/libcalamares/packages/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o"
+	cd /home/bob/Git/calamares/build/src/libcalamares && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o -MF CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o.d -o CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.o -c /home/bob/Git/calamares/src/libcalamares/packages/Tests.cpp
 
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/libcalamares/packages/Tests.cpp > CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.i
+	cd /home/bob/Git/calamares/build/src/libcalamares && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/libcalamares/packages/Tests.cpp > CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.i
 
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/libcalamares && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/libcalamares/packages/Tests.cpp -o CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.s
+	cd /home/bob/Git/calamares/build/src/libcalamares && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/libcalamares/packages/Tests.cpp -o CMakeFiles/libcalamarespackagestest.dir/packages/Tests.cpp.s
 
 # Object files for target libcalamarespackagestest
 libcalamarespackagestest_OBJECTS = \
@@ -114,18 +114,18 @@ libcalamarespackagestest: /usr/lib/libyaml-cpp.so
 libcalamarespackagestest: /usr/lib/libKF5CoreAddons.so.5.96.0
 libcalamarespackagestest: /usr/lib/libQt5Core.so.5.15.5
 libcalamarespackagestest: src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../libcalamarespackagestest"
-	cd /home/bob/Documents/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamarespackagestest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../libcalamarespackagestest"
+	cd /home/bob/Git/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcalamarespackagestest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/build: libcalamarespackagestest
 .PHONY : src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/build
 
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamarespackagestest.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/libcalamares && $(CMAKE_COMMAND) -P CMakeFiles/libcalamarespackagestest.dir/cmake_clean.cmake
 .PHONY : src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/clean
 
 src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/libcalamares /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/libcalamares /home/bob/Documents/calamares/build/src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/libcalamares /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/libcalamares /home/bob/Git/calamares/build/src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/libcalamares/CMakeFiles/libcalamarespackagestest.dir/depend
 

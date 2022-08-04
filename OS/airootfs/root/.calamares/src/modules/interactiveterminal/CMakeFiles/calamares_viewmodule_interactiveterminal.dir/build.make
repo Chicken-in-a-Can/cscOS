@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/depend.make
@@ -72,44 +72,44 @@ include src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interact
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o: src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/flags.make
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o: src/modules/interactiveterminal/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o: src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/modules/interactiveterminal/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/modules/interactiveterminal/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/interactiveterminal/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/interactiveterminal/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/interactiveterminal/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/interactiveterminal/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o: src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/flags.make
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o: ../src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o: src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o -c /home/bob/Documents/calamares/src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o -c /home/bob/Git/calamares/src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp > CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp > CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/interactiveterminal/InteractiveTerminalViewStep.cpp -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o: src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/flags.make
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o: ../src/modules/interactiveterminal/InteractiveTerminalPage.cpp
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o: src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o -MF CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o.d -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o -c /home/bob/Documents/calamares/src/modules/interactiveterminal/InteractiveTerminalPage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o -MF CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o.d -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o -c /home/bob/Git/calamares/src/modules/interactiveterminal/InteractiveTerminalPage.cpp
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/interactiveterminal/InteractiveTerminalPage.cpp > CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/interactiveterminal/InteractiveTerminalPage.cpp > CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/interactiveterminal/InteractiveTerminalPage.cpp -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/interactiveterminal/InteractiveTerminalPage.cpp -o CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s
 
 # Object files for target calamares_viewmodule_interactiveterminal
 calamares_viewmodule_interactiveterminal_OBJECTS = \
@@ -162,18 +162,18 @@ src/modules/interactiveterminal/libcalamares_viewmodule_interactiveterminal.so: 
 src/modules/interactiveterminal/libcalamares_viewmodule_interactiveterminal.so: /usr/lib/libQt5Network.so.5.15.5
 src/modules/interactiveterminal/libcalamares_viewmodule_interactiveterminal.so: /usr/lib/libQt5Core.so.5.15.5
 src/modules/interactiveterminal/libcalamares_viewmodule_interactiveterminal.so: src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcalamares_viewmodule_interactiveterminal.so"
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_interactiveterminal.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcalamares_viewmodule_interactiveterminal.so"
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_interactiveterminal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build: src/modules/interactiveterminal/libcalamares_viewmodule_interactiveterminal.so
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/interactiveterminal && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_interactiveterminal.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/interactiveterminal && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_interactiveterminal.dir/cmake_clean.cmake
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/clean
 
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/interactiveterminal /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/interactiveterminal /home/bob/Documents/calamares/build/src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/interactiveterminal /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/interactiveterminal /home/bob/Git/calamares/build/src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/depend
 

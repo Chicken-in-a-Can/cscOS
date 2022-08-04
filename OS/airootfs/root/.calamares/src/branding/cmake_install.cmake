@@ -1,8 +1,8 @@
-# Install script for directory: /home/bob/Documents/calamares/src/branding
+# Install script for directory: /home/bob/Git/calamares/src/branding
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,52 +39,52 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/sbin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/banner.png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/banner.png")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/banner.png.license")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/banner.png.license")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/branding.desc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/branding.desc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/languages.png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/languages.png")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/languages.png.license")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/languages.png.license")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/show.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/show.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/squid.png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/squid.png")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/squid.png.license")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/squid.png.license")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/branding/default/stylesheet.qss")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default" TYPE FILE FILES "/home/bob/Git/calamares/build/src/branding/default/stylesheet.qss")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/branding/default/lang" TYPE FILE FILES
-    "/home/bob/Documents/calamares/build/src/branding/calamares-default_ar.qm"
-    "/home/bob/Documents/calamares/build/src/branding/calamares-default_en.qm"
-    "/home/bob/Documents/calamares/build/src/branding/calamares-default_eo.qm"
-    "/home/bob/Documents/calamares/build/src/branding/calamares-default_fr.qm"
-    "/home/bob/Documents/calamares/build/src/branding/calamares-default_nl.qm"
+    "/home/bob/Git/calamares/build/src/branding/calamares-default_ar.qm"
+    "/home/bob/Git/calamares/build/src/branding/calamares-default_en.qm"
+    "/home/bob/Git/calamares/build/src/branding/calamares-default_eo.qm"
+    "/home/bob/Git/calamares/build/src/branding/calamares-default_fr.qm"
+    "/home/bob/Git/calamares/build/src/branding/calamares-default_nl.qm"
     )
 endif()
 

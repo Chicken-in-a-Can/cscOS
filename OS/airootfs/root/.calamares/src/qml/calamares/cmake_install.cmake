@@ -1,8 +1,8 @@
-# Install script for directory: /home/bob/Documents/calamares/src/qml/calamares
+# Install script for directory: /home/bob/Git/calamares/src/qml/calamares
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,38 +39,38 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/sbin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/BackButton.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/BackButton.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/ForwardButton.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/ForwardButton.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/NavButton.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/NavButton.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/Presentation.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/Presentation.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/Slide.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/Slide.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/SlideCounter.qml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/SlideCounter.qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/qmldir")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/qmldir")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Documents/calamares/build/src/qml/calamares/slideshow/qmldir.license")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calamares/qml/calamares/slideshow" TYPE FILE FILES "/home/bob/Git/calamares/build/src/qml/calamares/slideshow/qmldir.license")
 endif()
 

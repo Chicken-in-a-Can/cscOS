@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Utility rule file for NightlyCoverage.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyCoverage.dir/clean:
 .PHONY : CMakeFiles/NightlyCoverage.dir/clean
 
 CMakeFiles/NightlyCoverage.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares /home/bob/Git/calamares/build /home/bob/Git/calamares/build /home/bob/Git/calamares/build/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyCoverage.dir/depend
 

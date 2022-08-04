@@ -9,12 +9,12 @@
 #ifndef CALAMARESCONFIG_H
 #define CALAMARESCONFIG_H
 
-#define CMAKE_INSTALL_PREFIX "/usr/local"
-#define CMAKE_INSTALL_FULL_LIBEXECDIR "/usr/local/lib/libexec"
+#define CMAKE_INSTALL_PREFIX "/usr"
+#define CMAKE_INSTALL_FULL_LIBEXECDIR "/usr/lib/libexec"
 #define CMAKE_INSTALL_LIBDIR "lib"
-#define CMAKE_INSTALL_FULL_LIBDIR "/usr/local/lib"
-#define CMAKE_INSTALL_FULL_DATADIR "/usr/local/share/calamares"
-#define CMAKE_INSTALL_FULL_SYSCONFDIR "/usr/local/etc"
+#define CMAKE_INSTALL_FULL_LIBDIR "/usr/lib"
+#define CMAKE_INSTALL_FULL_DATADIR "/usr/share/calamares"
+#define CMAKE_INSTALL_FULL_SYSCONFDIR "/etc"
 
 /*
  * These are feature-settings that affect consumers of Calamares
@@ -24,7 +24,7 @@
  * This list should match the one in CalamaresConfig.cmake
  * which is the CMake-time side of the same configuration.
  */
-/* #undef WITH_PYTHON */
+#define WITH_PYTHON
 #define WITH_QML
 
 #endif  // CALAMARESCONFIG_H

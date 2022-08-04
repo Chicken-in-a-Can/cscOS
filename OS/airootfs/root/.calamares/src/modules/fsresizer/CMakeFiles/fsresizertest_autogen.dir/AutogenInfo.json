@@ -1,68 +1,68 @@
 {
-	"BUILD_DIR" : "/home/bob/Documents/calamares/build/src/modules/fsresizer/fsresizertest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/bob/Documents/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Documents/calamares/build/src/modules/fsresizer",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Documents/calamares/src/modules/fsresizer",
+	"BUILD_DIR" : "/home/bob/Git/calamares/build/src/modules/fsresizer/fsresizertest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bob/Git/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Git/calamares/build/src/modules/fsresizer",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Git/calamares/src/modules/fsresizer",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/bob/Documents/calamares/src/modules/fsresizer/CMakeLists.txt",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigConfigVersion.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigConfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigTargets.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigQchTargets.cmake",
+		"/home/bob/Git/calamares/src/modules/fsresizer/CMakeLists.txt",
+		"/lib64/cmake/KF5Config/KF5ConfigConfigVersion.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigConfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigTargets.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigTargets-noconfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigQchTargets.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-		"/usr/lib64/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Xml/Qt5XmlConfig.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigCompilerTargets.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigCompilerTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigMacros.cmake",
+		"/lib64/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
+		"/lib64/cmake/Qt5Xml/Qt5XmlConfig.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigCompilerTargets.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigCompilerTargets-noconfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigMacros.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nConfigVersion.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nConfig.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nConfigVersion.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nConfig.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nTargets.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nQchTargets.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nMacros.cmake",
+		"/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nTargets.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nTargets-noconfig.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nQchTargets.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nMacros.cmake",
 		"/usr/share/cmake/Modules/FindGettext.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfigVersion.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfig.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfigVersion.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfig.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsQchTargets.cmake",
-		"/home/bob/Documents/calamares/CMakeModules/KPMcoreHelper.cmake",
+		"/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-noconfig.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsQchTargets.cmake",
+		"/home/bob/Git/calamares/CMakeModules/KPMcoreHelper.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/bob/Documents/calamares/src/modules/fsresizer/fsresizer.conf"
+		"/home/bob/Git/calamares/src/modules/fsresizer/fsresizer.conf"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/bob/Documents/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/bob/Git/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/fsresizer/Tests.h",
+			"/home/bob/Git/calamares/src/modules/fsresizer/Tests.h",
 			"Mu",
 			"EWIEGA46WW/moc_Tests.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/bob/Documents/calamares/build/src/modules/fsresizer/fsresizertest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/bob/Documents/calamares/build/src/modules/fsresizer/fsresizertest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/bob/Git/calamares/build/src/modules/fsresizer/fsresizertest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bob/Git/calamares/build/src/modules/fsresizer/fsresizertest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/bob/Documents/calamares/src/modules/fsresizer\"",
+		"BUILD_AS_TEST=\"/home/bob/Git/calamares/src/modules/fsresizer\"",
 		"KCOREADDONS_LIB",
 		"QT_CORE_LIB",
 		"QT_DISABLE_DEPRECATED_BEFORE=0x050f00",
@@ -72,7 +72,7 @@
 		"QT_SHARED",
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
-		"QT_TESTCASE_BUILDDIR=\"/home/bob/Documents/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/bob/Git/calamares/build\"",
 		"QT_TESTLIB_LIB",
 		"QT_WIDGETS_LIB"
 	],
@@ -97,13 +97,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/bob/Documents/calamares/src/libcalamares",
-		"/home/bob/Documents/calamares/build/src/libcalamares",
-		"/home/bob/Documents/calamares/src/libcalamaresui",
-		"/home/bob/Documents/calamares/src/modules/partition",
-		"/home/bob/Documents/calamares/src/modules/fsresizer",
-		"/home/bob/Documents/calamares/build/src/modules/fsresizer",
-		"/usr/local/include/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamares",
+		"/home/bob/Git/calamares/build/src/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamaresui",
+		"/home/bob/Git/calamares/src/modules/partition",
+		"/home/bob/Git/calamares/src/modules/fsresizer",
+		"/home/bob/Git/calamares/build/src/modules/fsresizer",
+		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -113,12 +113,12 @@
 		"/usr/include/qt/QtWidgets",
 		"/usr/include/qt/QtTest",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.1.1",
+		"/usr/include/c++/12.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -135,33 +135,29 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/sbin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/bob/Documents/calamares/build/src/modules/fsresizer/fsresizertest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/bob/Git/calamares/build/src/modules/fsresizer/fsresizertest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/bob/Documents/calamares/build/src/modules/fsresizer/calamares_job_fsresizer_autogen/mocs_compilation.cpp"
+		"/home/bob/Git/calamares/build/src/modules/fsresizer/calamares_job_fsresizer_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/bob/Documents/calamares/build/src/modules/fsresizer/CMakeFiles/fsresizertest_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/bob/Git/calamares/build/src/modules/fsresizer/CMakeFiles/fsresizertest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/bob/Documents/calamares/build/src/modules/fsresizer/CMakeFiles/fsresizertest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/bob/Git/calamares/build/src/modules/fsresizer/CMakeFiles/fsresizertest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"/home/bob/Documents/calamares/src/modules/fsresizer/Tests.cpp",
-			"Mu",
-			null
-		]
+		[ "/home/bob/Git/calamares/src/modules/fsresizer/Tests.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

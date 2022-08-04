@@ -125,12 +125,12 @@ strings:
     shortProductName:    cscOS
     version:             0.1.0
     shortVersion:        0.1.0
-    versionedName:       cscOS GNU/Linux Version 0.1.0 
+    versionedName:       cscOS GNU/Linux Version 0.1.0
     shortVersionedName:  cscOS 0.1.0
     bootloaderEntryName: cscOS
-    productUrl:          https://calamares.io/
-    supportUrl:          https://github.com/calamares/calamares/wiki
-    knownIssuesUrl:      https://github.com/calamares/calamares/issues
+    productUrl:          https://github.com/chicken-in-a-can/cscOS
+    supportUrl:          https://github.com/chicken-in-a-can/cscOS
+    knownIssuesUrl:      https://github.com/chicken-in-a-can/cscOS/issues
     releaseNotesUrl:     https://calamares.io/news/
     donateUrl:           https://kde.org/community/donations/index.php
 

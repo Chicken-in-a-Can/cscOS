@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Documents/calamares/build/CPackSourceConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Git/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles /home/bob/Documents/calamares/build/src/modules/interactiveterminal//CMakeFiles/progress.marks
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles /home/bob/Git/calamares/build/src/modules/interactiveterminal//CMakeFiles/progress.marks
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/clean
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ KF5Service_QCH: src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/ru
 
 # fast build rule for target.
 KF5Service_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Service_QCH.dir/build
 .PHONY : KF5Service_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ KF5Bookmarks_QCH: src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.di
 
 # fast build rule for target.
 KF5Bookmarks_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Bookmarks_QCH.dir/build
 .PHONY : KF5Bookmarks_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ KF5Completion_QCH: src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.
 
 # fast build rule for target.
 KF5Completion_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Completion_QCH.dir/build
 .PHONY : KF5Completion_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ KF5ItemViews_QCH: src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.di
 
 # fast build rule for target.
 KF5ItemViews_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5ItemViews_QCH.dir/build
 .PHONY : KF5ItemViews_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ KF5JobWidgets_QCH: src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.
 
 # fast build rule for target.
 KF5JobWidgets_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5JobWidgets_QCH.dir/build
 .PHONY : KF5JobWidgets_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ KF5Solid_QCH: src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/rule
 
 # fast build rule for target.
 KF5Solid_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Solid_QCH.dir/build
 .PHONY : KF5Solid_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ KF5Auth_QCH: src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/rule
 
 # fast build rule for target.
 KF5Auth_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Auth_QCH.dir/build
 .PHONY : KF5Auth_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/rule
 
 # Convenience name for target.
@@ -300,12 +300,12 @@ KF5Codecs_QCH: src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/rule
 
 # fast build rule for target.
 KF5Codecs_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Codecs_QCH.dir/build
 .PHONY : KF5Codecs_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ KF5ConfigWidgets_QCH: src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidget
 
 # fast build rule for target.
 KF5ConfigWidgets_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5ConfigWidgets_QCH.dir/build
 .PHONY : KF5ConfigWidgets_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/rule
 
 # Convenience name for target.
@@ -328,12 +328,12 @@ KF5XmlGui_QCH: src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/rule
 
 # fast build rule for target.
 KF5XmlGui_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5XmlGui_QCH.dir/build
 .PHONY : KF5XmlGui_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ KF5WindowSystem_QCH: src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_
 
 # fast build rule for target.
 KF5WindowSystem_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5WindowSystem_QCH.dir/build
 .PHONY : KF5WindowSystem_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/rule
 
 # Convenience name for target.
@@ -356,12 +356,12 @@ KF5KIO_QCH: src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/rule
 
 # fast build rule for target.
 KF5KIO_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5KIO_QCH.dir/build
 .PHONY : KF5KIO_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/rule
 
 # Convenience name for target.
@@ -370,12 +370,12 @@ KF5SonnetCore_QCH: src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.
 
 # fast build rule for target.
 KF5SonnetCore_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5SonnetCore_QCH.dir/build
 .PHONY : KF5SonnetCore_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/rule
 
 # Convenience name for target.
@@ -384,12 +384,12 @@ KF5SonnetUi_QCH: src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/
 
 # fast build rule for target.
 KF5SonnetUi_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5SonnetUi_QCH.dir/build
 .PHONY : KF5SonnetUi_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/rule
 
 # Convenience name for target.
@@ -398,12 +398,12 @@ KF5TextWidgets_QCH: src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QC
 
 # fast build rule for target.
 KF5TextWidgets_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5TextWidgets_QCH.dir/build
 .PHONY : KF5TextWidgets_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/rule
 
 # Convenience name for target.
@@ -412,12 +412,12 @@ KF5Parts_QCH: src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/rule
 
 # fast build rule for target.
 KF5Parts_QCH/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/build.make src/modules/interactiveterminal/CMakeFiles/KF5Parts_QCH.dir/build
 .PHONY : KF5Parts_QCH/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/rule
 
 # Convenience name for target.
@@ -426,12 +426,12 @@ calamares_viewmodule_interactiveterminal: src/modules/interactiveterminal/CMakeF
 
 # fast build rule for target.
 calamares_viewmodule_interactiveterminal/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build
 .PHONY : calamares_viewmodule_interactiveterminal/fast
 
 # Convenience name for target.
 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule
 .PHONY : src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/rule
 
 # Convenience name for target.
@@ -440,7 +440,7 @@ calamares_viewmodule_interactiveterminal_autogen: src/modules/interactivetermina
 
 # fast build rule for target.
 calamares_viewmodule_interactiveterminal_autogen/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal_autogen.dir/build
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/fast
 
 InteractiveTerminalPage.o: InteractiveTerminalPage.cpp.o
@@ -448,7 +448,7 @@ InteractiveTerminalPage.o: InteractiveTerminalPage.cpp.o
 
 # target to build an object file
 InteractiveTerminalPage.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.o
 .PHONY : InteractiveTerminalPage.cpp.o
 
 InteractiveTerminalPage.i: InteractiveTerminalPage.cpp.i
@@ -456,7 +456,7 @@ InteractiveTerminalPage.i: InteractiveTerminalPage.cpp.i
 
 # target to preprocess a source file
 InteractiveTerminalPage.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.i
 .PHONY : InteractiveTerminalPage.cpp.i
 
 InteractiveTerminalPage.s: InteractiveTerminalPage.cpp.s
@@ -464,7 +464,7 @@ InteractiveTerminalPage.s: InteractiveTerminalPage.cpp.s
 
 # target to generate assembly for a file
 InteractiveTerminalPage.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalPage.cpp.s
 .PHONY : InteractiveTerminalPage.cpp.s
 
 InteractiveTerminalViewStep.o: InteractiveTerminalViewStep.cpp.o
@@ -472,7 +472,7 @@ InteractiveTerminalViewStep.o: InteractiveTerminalViewStep.cpp.o
 
 # target to build an object file
 InteractiveTerminalViewStep.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.o
 .PHONY : InteractiveTerminalViewStep.cpp.o
 
 InteractiveTerminalViewStep.i: InteractiveTerminalViewStep.cpp.i
@@ -480,7 +480,7 @@ InteractiveTerminalViewStep.i: InteractiveTerminalViewStep.cpp.i
 
 # target to preprocess a source file
 InteractiveTerminalViewStep.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.i
 .PHONY : InteractiveTerminalViewStep.cpp.i
 
 InteractiveTerminalViewStep.s: InteractiveTerminalViewStep.cpp.s
@@ -488,7 +488,7 @@ InteractiveTerminalViewStep.s: InteractiveTerminalViewStep.cpp.s
 
 # target to generate assembly for a file
 InteractiveTerminalViewStep.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/InteractiveTerminalViewStep.cpp.s
 .PHONY : InteractiveTerminalViewStep.cpp.s
 
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.o: calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
@@ -496,7 +496,7 @@ calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.o: calamares_v
 
 # target to build an object file
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.i: calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
@@ -504,7 +504,7 @@ calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.i: calamares_v
 
 # target to preprocess a source file
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.s: calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
@@ -512,7 +512,7 @@ calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.s: calamares_v
 
 # target to generate assembly for a file
 calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/build.make src/modules/interactiveterminal/CMakeFiles/calamares_viewmodule_interactiveterminal.dir/calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_interactiveterminal_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -568,6 +568,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

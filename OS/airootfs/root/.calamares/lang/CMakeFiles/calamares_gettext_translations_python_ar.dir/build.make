@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Utility rule file for calamares_gettext_translations_python_ar.
 
@@ -69,8 +69,8 @@ include lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/progress.ma
 lang/CMakeFiles/calamares_gettext_translations_python_ar: lang/ar/LC_MESSAGES/calamares-python.mo
 
 lang/ar/LC_MESSAGES/calamares-python.mo: ../lang/python/ar/LC_MESSAGES/python.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ar/LC_MESSAGES/calamares-python.mo"
-	cd /home/bob/Documents/calamares/build/lang && /usr/bin/msgfmt -o /home/bob/Documents/calamares/build/lang/ar/LC_MESSAGES/calamares-python.mo /home/bob/Documents/calamares/lang/python/ar/LC_MESSAGES/python.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ar/LC_MESSAGES/calamares-python.mo"
+	cd /home/bob/Git/calamares/build/lang && /sbin/msgfmt -o /home/bob/Git/calamares/build/lang/ar/LC_MESSAGES/calamares-python.mo /home/bob/Git/calamares/lang/python/ar/LC_MESSAGES/python.po
 
 calamares_gettext_translations_python_ar: lang/CMakeFiles/calamares_gettext_translations_python_ar
 calamares_gettext_translations_python_ar: lang/ar/LC_MESSAGES/calamares-python.mo
@@ -82,10 +82,10 @@ lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/build: calamares_ge
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/build
 
 lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/clean:
-	cd /home/bob/Documents/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares_gettext_translations_python_ar.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares_gettext_translations_python_ar.dir/cmake_clean.cmake
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/clean
 
 lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/lang /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/lang /home/bob/Documents/calamares/build/lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/lang /home/bob/Git/calamares/build /home/bob/Git/calamares/build/lang /home/bob/Git/calamares/build/lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lang/CMakeFiles/calamares_gettext_translations_python_ar.dir/depend
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bob/Documents/calamares/src/calamares/test_conf.cpp" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o" "gcc" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o.d"
+  "/home/bob/Git/calamares/src/calamares/test_conf.cpp" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o" "gcc" "src/calamares/CMakeFiles/test_conf.dir/test_conf.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -13,11 +13,13 @@
 #define __SIZEOF_FLOAT80__ 16
 #define __INTMAX_C(c) c ## L
 #define __CHAR_BIT__ 8
+#define BOOST_PYTHON_NO_LIB 1
 #define __UINT8_MAX__ 0xff
 #define __SCHAR_WIDTH__ 8
 #define QT_SHAREDPOINTER_TRACK_POINTERS 1
 #define __WINT_MAX__ 0xffffffffU
 #define __FLT32_MIN_EXP__ (-125)
+#define BOOST_PYTHON_DYN_LINK 1
 #define __cpp_static_assert 201411L
 #define QT_GUI_LIB 1
 #define __ORDER_LITTLE_ENDIAN__ 1234
@@ -212,7 +214,7 @@
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
 #define __FLT_MANT_DIG__ 24
 #define __LDBL_DECIMAL_DIG__ 21
-#define __VERSION__ "12.1.0"
+#define __VERSION__ "12.1.1 20220730"
 #define __UINT64_C(c) c ## UL
 #define __cpp_unicode_characters 201411L
 #define QT_DBUS_LIB 1
@@ -376,7 +378,7 @@
 #define __FLT64_MAX_EXP__ 1024
 #define __INT_LEAST32_TYPE__ int
 #define __SIZEOF_WCHAR_T__ 4
-#define __GNUC_PATCHLEVEL__ 0
+#define __GNUC_PATCHLEVEL__ 1
 #define __FLT128_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F128
 #define __FLT64_NORM_MAX__ 1.79769313486231570814527423731704357e+308F64
 #define __FLT128_HAS_QUIET_NAN__ 1

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/netinstall/CMakeFiles/netinstalltest.dir/depend.make
@@ -72,86 +72,86 @@ include src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o: src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp > CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp > CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp -o CMakeFiles/netinstalltest.dir/netinstalltest_autogen/mocs_compilation.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o: ../src/modules/netinstall/Tests.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o -MF CMakeFiles/netinstalltest.dir/Tests.cpp.o.d -o CMakeFiles/netinstalltest.dir/Tests.cpp.o -c /home/bob/Documents/calamares/src/modules/netinstall/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.o -MF CMakeFiles/netinstalltest.dir/Tests.cpp.o.d -o CMakeFiles/netinstalltest.dir/Tests.cpp.o -c /home/bob/Git/calamares/src/modules/netinstall/Tests.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/Tests.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/netinstall/Tests.cpp > CMakeFiles/netinstalltest.dir/Tests.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/netinstall/Tests.cpp > CMakeFiles/netinstalltest.dir/Tests.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/Tests.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/netinstall/Tests.cpp -o CMakeFiles/netinstalltest.dir/Tests.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/netinstall/Tests.cpp -o CMakeFiles/netinstalltest.dir/Tests.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o: ../src/modules/netinstall/Config.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o -MF CMakeFiles/netinstalltest.dir/Config.cpp.o.d -o CMakeFiles/netinstalltest.dir/Config.cpp.o -c /home/bob/Documents/calamares/src/modules/netinstall/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.o -MF CMakeFiles/netinstalltest.dir/Config.cpp.o.d -o CMakeFiles/netinstalltest.dir/Config.cpp.o -c /home/bob/Git/calamares/src/modules/netinstall/Config.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/Config.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/netinstall/Config.cpp > CMakeFiles/netinstalltest.dir/Config.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/netinstall/Config.cpp > CMakeFiles/netinstalltest.dir/Config.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/Config.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/netinstall/Config.cpp -o CMakeFiles/netinstalltest.dir/Config.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/netinstall/Config.cpp -o CMakeFiles/netinstalltest.dir/Config.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o: ../src/modules/netinstall/LoaderQueue.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -MF CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o.d -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -c /home/bob/Documents/calamares/src/modules/netinstall/LoaderQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -MF CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o.d -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.o -c /home/bob/Git/calamares/src/modules/netinstall/LoaderQueue.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/netinstall/LoaderQueue.cpp > CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/netinstall/LoaderQueue.cpp > CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/netinstall/LoaderQueue.cpp -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/netinstall/LoaderQueue.cpp -o CMakeFiles/netinstalltest.dir/LoaderQueue.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o: ../src/modules/netinstall/PackageTreeItem.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -c /home/bob/Documents/calamares/src/modules/netinstall/PackageTreeItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.o -c /home/bob/Git/calamares/src/modules/netinstall/PackageTreeItem.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/netinstall/PackageTreeItem.cpp > CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/netinstall/PackageTreeItem.cpp > CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/netinstall/PackageTreeItem.cpp -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/netinstall/PackageTreeItem.cpp -o CMakeFiles/netinstalltest.dir/PackageTreeItem.cpp.s
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/flags.make
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o: ../src/modules/netinstall/PackageModel.cpp
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o: src/modules/netinstall/CMakeFiles/netinstalltest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageModel.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -c /home/bob/Documents/calamares/src/modules/netinstall/PackageModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -MF CMakeFiles/netinstalltest.dir/PackageModel.cpp.o.d -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.o -c /home/bob/Git/calamares/src/modules/netinstall/PackageModel.cpp
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/netinstalltest.dir/PackageModel.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/netinstall/PackageModel.cpp > CMakeFiles/netinstalltest.dir/PackageModel.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/netinstall/PackageModel.cpp > CMakeFiles/netinstalltest.dir/PackageModel.cpp.i
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/PackageModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/netinstalltest.dir/PackageModel.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/netinstall/PackageModel.cpp -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/netinstall/PackageModel.cpp -o CMakeFiles/netinstalltest.dir/PackageModel.cpp.s
 
 # Object files for target netinstalltest
 netinstalltest_OBJECTS = \
@@ -180,18 +180,18 @@ netinstalltest: /usr/lib/libQt5Test.so.5.15.5
 netinstalltest: /usr/lib/libyaml-cpp.so
 netinstalltest: /usr/lib/libQt5Core.so.5.15.5
 netinstalltest: src/modules/netinstall/CMakeFiles/netinstalltest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../netinstalltest"
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/netinstalltest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../netinstalltest"
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/netinstalltest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/build: netinstalltest
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/build
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/netinstall && $(CMAKE_COMMAND) -P CMakeFiles/netinstalltest.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/netinstall && $(CMAKE_COMMAND) -P CMakeFiles/netinstalltest.dir/cmake_clean.cmake
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/clean
 
 src/modules/netinstall/CMakeFiles/netinstalltest.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/netinstall /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/netinstall /home/bob/Documents/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/netinstall /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/netinstall /home/bob/Git/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/netinstall/CMakeFiles/netinstalltest.dir/depend
 

@@ -1,345 +1,345 @@
 {
-	"BUILD_DIR" : "/home/bob/Documents/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen",
-	"CMAKE_BINARY_DIR" : "/home/bob/Documents/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Documents/calamares/build/src/modules/partition",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Documents/calamares/src/modules/partition",
+	"BUILD_DIR" : "/home/bob/Git/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bob/Git/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Git/calamares/build/src/modules/partition",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Git/calamares/src/modules/partition",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/bob/Documents/calamares/src/modules/partition/CMakeLists.txt",
+		"/home/bob/Git/calamares/src/modules/partition/CMakeLists.txt",
 		"/usr/share/ECM/cmake/ECMConfigVersion.cmake",
 		"/usr/share/ECM/cmake/ECMConfig.cmake",
 		"/usr/share/ECM/modules/ECMUseFindModules.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
-		"/home/bob/Documents/calamares/CMakeModules/KPMcoreHelper.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigConfigVersion.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigConfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigTargets.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigQchTargets.cmake",
+		"/home/bob/Git/calamares/CMakeModules/KPMcoreHelper.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigConfigVersion.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigConfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigTargets.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigTargets-noconfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigQchTargets.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-		"/usr/lib64/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Xml/Qt5XmlConfig.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigCompilerTargets.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigCompilerTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5Config/KF5ConfigMacros.cmake",
+		"/lib64/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
+		"/lib64/cmake/Qt5Xml/Qt5XmlConfig.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigCompilerTargets.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigCompilerTargets-noconfig.cmake",
+		"/lib64/cmake/KF5Config/KF5ConfigMacros.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nConfigVersion.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nConfig.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nConfigVersion.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nConfig.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nTargets.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nQchTargets.cmake",
-		"/usr/lib64/cmake/KF5I18n/KF5I18nMacros.cmake",
+		"/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nTargets.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nTargets-noconfig.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nQchTargets.cmake",
+		"/lib64/cmake/KF5I18n/KF5I18nMacros.cmake",
 		"/usr/share/cmake/Modules/FindGettext.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfigVersion.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfig.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfigVersion.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfig.cmake",
 		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-noconfig.cmake",
-		"/usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsQchTargets.cmake",
+		"/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-noconfig.cmake",
+		"/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsQchTargets.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/bob/Documents/calamares/src/modules/partition/partition.conf"
+		"/home/bob/Git/calamares/src/modules/partition/partition.conf"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/bob/Documents/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/bob/Git/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/Config.h",
+			"/home/bob/Git/calamares/src/modules/partition/Config.h",
 			"MU",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/PartitionViewStep.h",
+			"/home/bob/Git/calamares/src/modules/partition/PartitionViewStep.h",
 			"MU",
 			"EWIEGA46WW/moc_PartitionViewStep.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/BootLoaderModel.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/BootLoaderModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_BootLoaderModel.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/ColorUtils.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/ColorUtils.h",
 			"MU",
 			"TAC5DWH4SE/moc_ColorUtils.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/DeviceList.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/DeviceList.h",
 			"MU",
 			"TAC5DWH4SE/moc_DeviceList.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/DeviceModel.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/DeviceModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_DeviceModel.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/KPMHelpers.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/KPMHelpers.h",
 			"MU",
 			"TAC5DWH4SE/moc_KPMHelpers.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartUtils.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartUtils.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartUtils.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionActions.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionActions.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionActions.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionCoreModule.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionCoreModule.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionCoreModule.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionInfo.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionInfo.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionInfo.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionLayout.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionLayout.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionLayout.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionModel.h",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionModel.h",
 			"MU",
 			"TAC5DWH4SE/moc_PartitionModel.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/BootInfoWidget.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/BootInfoWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_BootInfoWidget.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ChoicePage.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ChoicePage.h",
 			"MU",
 			"DMHXEJ42XS/moc_ChoicePage.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/CreatePartitionDialog.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/CreatePartitionDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_CreatePartitionDialog.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_CreateVolumeGroupDialog.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/DeviceInfoWidget.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/DeviceInfoWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_DeviceInfoWidget.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/EditExistingPartitionDialog.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/EditExistingPartitionDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_EditExistingPartitionDialog.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/EncryptWidget.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/EncryptWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_EncryptWidget.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.h",
 			"MU",
 			"DMHXEJ42XS/moc_ListPhysicalVolumeWidgetItem.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionBarsView.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionBarsView.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionBarsView.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionDialogHelpers.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionDialogHelpers.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionDialogHelpers.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionLabelsView.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionLabelsView.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionLabelsView.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionPage.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionPage.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionPage.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionSizeController.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionSizeController.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionSizeController.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionSplitterWidget.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionSplitterWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_PartitionSplitterWidget.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ReplaceWidget.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ReplaceWidget.h",
 			"MU",
 			"DMHXEJ42XS/moc_ReplaceWidget.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_ResizeVolumeGroupDialog.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ScanningDialog.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ScanningDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_ScanningDialog.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h",
+			"/home/bob/Git/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.h",
 			"MU",
 			"DMHXEJ42XS/moc_VolumeGroupBaseDialog.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/AutoMountManagementJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/AutoMountManagementJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_AutoMountManagementJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ChangeFilesystemLabelJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ClearMountsJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ClearMountsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ClearMountsJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ClearTempMountsJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ClearTempMountsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ClearTempMountsJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/CreatePartitionJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/CreatePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreatePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/CreatePartitionTableJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/CreatePartitionTableJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreatePartitionTableJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_CreateVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_DeactivateVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/DeletePartitionJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/DeletePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_DeletePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/FillGlobalStorageJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/FillGlobalStorageJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_FillGlobalStorageJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/FormatPartitionJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/FormatPartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_FormatPartitionJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/PartitionJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/PartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_PartitionJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_RemoveVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ResizePartitionJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ResizePartitionJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ResizePartitionJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_ResizeVolumeGroupJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.h",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.h",
 			"MU",
 			"AJN4HOEG3V/moc_SetPartitionFlagsJob.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/bob/Documents/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/bob/Documents/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/bob/Git/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bob/Git/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -382,14 +382,14 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/bob/Documents/calamares/src/libcalamares",
-		"/home/bob/Documents/calamares/build/src/libcalamares",
-		"/home/bob/Documents/calamares/src/libcalamaresui",
-		"/home/bob/Documents/calamares",
-		"/home/bob/Documents/calamares/build/src/libcalamaresui",
-		"/home/bob/Documents/calamares/src/modules/partition",
-		"/home/bob/Documents/calamares/build/src/modules/partition",
-		"/usr/local/include/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamares",
+		"/home/bob/Git/calamares/build/src/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamaresui",
+		"/home/bob/Git/calamares",
+		"/home/bob/Git/calamares/build/src/libcalamaresui",
+		"/home/bob/Git/calamares/src/modules/partition",
+		"/home/bob/Git/calamares/build/src/modules/partition",
+		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -408,12 +408,12 @@
 		"/usr/include/qt/QtQml",
 		"/usr/include/qt/QtNetwork",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.1.1",
+		"/usr/include/c++/12.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -430,257 +430,257 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/sbin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/bob/Documents/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/bob/Git/calamares/build/src/modules/partition/calamares_viewmodule_partition_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/bob/Documents/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/bob/Git/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/bob/Documents/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/bob/Git/calamares/build/src/modules/partition/CMakeFiles/calamares_viewmodule_partition_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/Config.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/Config.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/PartitionViewStep.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/PartitionViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/BootLoaderModel.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/BootLoaderModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/ColorUtils.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/ColorUtils.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/DeviceList.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/DeviceList.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/DeviceModel.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/DeviceModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/KPMHelpers.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/KPMHelpers.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartUtils.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartUtils.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionActions.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionActions.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionCoreModule.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionCoreModule.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionInfo.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionInfo.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionLayout.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionLayout.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/core/PartitionModel.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/core/PartitionModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/BootInfoWidget.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/BootInfoWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ChoicePage.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ChoicePage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/CreatePartitionDialog.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/CreatePartitionDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/CreateVolumeGroupDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/DeviceInfoWidget.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/DeviceInfoWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/EditExistingPartitionDialog.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/EditExistingPartitionDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/EncryptWidget.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/EncryptWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ListPhysicalVolumeWidgetItem.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionBarsView.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionBarsView.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionDialogHelpers.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionDialogHelpers.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionLabelsView.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionLabelsView.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionPage.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionPage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionSizeController.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionSizeController.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/PartitionSplitterWidget.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/PartitionSplitterWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ReplaceWidget.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ReplaceWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ResizeVolumeGroupDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/ScanningDialog.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/ScanningDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/gui/VolumeGroupBaseDialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/AutoMountManagementJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/AutoMountManagementJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ChangeFilesystemLabelJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ClearMountsJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ClearMountsJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ClearTempMountsJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ClearTempMountsJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/CreatePartitionJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/CreatePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/CreatePartitionTableJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/CreatePartitionTableJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/CreateVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/DeactivateVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/DeletePartitionJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/DeletePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/FillGlobalStorageJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/FillGlobalStorageJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/FormatPartitionJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/FormatPartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/PartitionJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/PartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/RemoveVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ResizePartitionJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ResizePartitionJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/ResizeVolumeGroupJob.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.cpp",
+			"/home/bob/Git/calamares/src/modules/partition/jobs/SetPartitionFlagsJob.cpp",
 			"MU",
 			null
 		]

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/bob/Documents/calamares/src
-# Build directory: /home/bob/Documents/calamares/build/src
+# Source directory: /home/bob/Git/calamares/src
+# Build directory: /home/bob/Git/calamares/build/src
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

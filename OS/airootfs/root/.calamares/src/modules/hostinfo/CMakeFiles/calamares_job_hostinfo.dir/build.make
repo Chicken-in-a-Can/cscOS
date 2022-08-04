@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/depend.make
@@ -72,30 +72,30 @@ include src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/flags.make
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/flags.make
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o: src/modules/hostinfo/calamares_job_hostinfo_autogen/mocs_compilation.cpp
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/modules/hostinfo/calamares_job_hostinfo_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/modules/hostinfo/calamares_job_hostinfo_autogen/mocs_compilation.cpp
 
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/hostinfo/calamares_job_hostinfo_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/hostinfo/calamares_job_hostinfo_autogen/mocs_compilation.cpp > CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.i
 
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/hostinfo/calamares_job_hostinfo_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/hostinfo/calamares_job_hostinfo_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_job_hostinfo.dir/calamares_job_hostinfo_autogen/mocs_compilation.cpp.s
 
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/flags.make
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o: ../src/modules/hostinfo/HostInfoJob.cpp
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o -MF CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o.d -o CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o -c /home/bob/Documents/calamares/src/modules/hostinfo/HostInfoJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o -MF CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o.d -o CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.o -c /home/bob/Git/calamares/src/modules/hostinfo/HostInfoJob.cpp
 
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/hostinfo/HostInfoJob.cpp > CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/hostinfo/HostInfoJob.cpp > CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.i
 
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/hostinfo/HostInfoJob.cpp -o CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/hostinfo/HostInfoJob.cpp -o CMakeFiles/calamares_job_hostinfo.dir/HostInfoJob.cpp.s
 
 # Object files for target calamares_job_hostinfo
 calamares_job_hostinfo_OBJECTS = \
@@ -115,18 +115,18 @@ src/modules/hostinfo/libcalamares_job_hostinfo.so: /usr/lib/libyaml-cpp.so
 src/modules/hostinfo/libcalamares_job_hostinfo.so: /usr/lib/libQt5Gui.so.5.15.5
 src/modules/hostinfo/libcalamares_job_hostinfo.so: /usr/lib/libQt5Core.so.5.15.5
 src/modules/hostinfo/libcalamares_job_hostinfo.so: src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcalamares_job_hostinfo.so"
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_hostinfo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcalamares_job_hostinfo.so"
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_job_hostinfo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/build: src/modules/hostinfo/libcalamares_job_hostinfo.so
 .PHONY : src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/build
 
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/hostinfo && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_hostinfo.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/hostinfo && $(CMAKE_COMMAND) -P CMakeFiles/calamares_job_hostinfo.dir/cmake_clean.cmake
 .PHONY : src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/clean
 
 src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/hostinfo /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/hostinfo /home/bob/Documents/calamares/build/src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/hostinfo /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/hostinfo /home/bob/Git/calamares/build/src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/hostinfo/CMakeFiles/calamares_job_hostinfo.dir/depend
 

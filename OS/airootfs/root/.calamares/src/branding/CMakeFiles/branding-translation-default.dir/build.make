@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Utility rule file for branding-translation-default.
 
@@ -71,28 +71,28 @@ src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-def
 src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-default_eo.qm
 src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-default_fr.qm
 src/branding/CMakeFiles/branding-translation-default: src/branding/calamares-default_nl.qm
-	cd /home/bob/Documents/calamares/build/src/branding && /usr/bin/cmake -E make_directory /home/bob/Documents/calamares/build/src/branding/default/lang/
-	cd /home/bob/Documents/calamares/build/src/branding && /usr/bin/cmake -E copy /home/bob/Documents/calamares/build/src/branding/calamares-default_ar.qm /home/bob/Documents/calamares/build/src/branding/calamares-default_en.qm /home/bob/Documents/calamares/build/src/branding/calamares-default_eo.qm /home/bob/Documents/calamares/build/src/branding/calamares-default_fr.qm /home/bob/Documents/calamares/build/src/branding/calamares-default_nl.qm /home/bob/Documents/calamares/build/src/branding/default/lang/
+	cd /home/bob/Git/calamares/build/src/branding && /usr/bin/cmake -E make_directory /home/bob/Git/calamares/build/src/branding/default/lang/
+	cd /home/bob/Git/calamares/build/src/branding && /usr/bin/cmake -E copy /home/bob/Git/calamares/build/src/branding/calamares-default_ar.qm /home/bob/Git/calamares/build/src/branding/calamares-default_en.qm /home/bob/Git/calamares/build/src/branding/calamares-default_eo.qm /home/bob/Git/calamares/build/src/branding/calamares-default_fr.qm /home/bob/Git/calamares/build/src/branding/calamares-default_nl.qm /home/bob/Git/calamares/build/src/branding/default/lang/
 
 src/branding/calamares-default_ar.qm: ../src/branding/default/lang/calamares-default_ar.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating calamares-default_ar.qm"
-	cd /home/bob/Documents/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Documents/calamares/src/branding/default/lang/calamares-default_ar.ts -qm /home/bob/Documents/calamares/build/src/branding/calamares-default_ar.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating calamares-default_ar.qm"
+	cd /home/bob/Git/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Git/calamares/src/branding/default/lang/calamares-default_ar.ts -qm /home/bob/Git/calamares/build/src/branding/calamares-default_ar.qm
 
 src/branding/calamares-default_en.qm: ../src/branding/default/lang/calamares-default_en.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating calamares-default_en.qm"
-	cd /home/bob/Documents/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Documents/calamares/src/branding/default/lang/calamares-default_en.ts -qm /home/bob/Documents/calamares/build/src/branding/calamares-default_en.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating calamares-default_en.qm"
+	cd /home/bob/Git/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Git/calamares/src/branding/default/lang/calamares-default_en.ts -qm /home/bob/Git/calamares/build/src/branding/calamares-default_en.qm
 
 src/branding/calamares-default_eo.qm: ../src/branding/default/lang/calamares-default_eo.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating calamares-default_eo.qm"
-	cd /home/bob/Documents/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Documents/calamares/src/branding/default/lang/calamares-default_eo.ts -qm /home/bob/Documents/calamares/build/src/branding/calamares-default_eo.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating calamares-default_eo.qm"
+	cd /home/bob/Git/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Git/calamares/src/branding/default/lang/calamares-default_eo.ts -qm /home/bob/Git/calamares/build/src/branding/calamares-default_eo.qm
 
 src/branding/calamares-default_fr.qm: ../src/branding/default/lang/calamares-default_fr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating calamares-default_fr.qm"
-	cd /home/bob/Documents/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Documents/calamares/src/branding/default/lang/calamares-default_fr.ts -qm /home/bob/Documents/calamares/build/src/branding/calamares-default_fr.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating calamares-default_fr.qm"
+	cd /home/bob/Git/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Git/calamares/src/branding/default/lang/calamares-default_fr.ts -qm /home/bob/Git/calamares/build/src/branding/calamares-default_fr.qm
 
 src/branding/calamares-default_nl.qm: ../src/branding/default/lang/calamares-default_nl.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating calamares-default_nl.qm"
-	cd /home/bob/Documents/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Documents/calamares/src/branding/default/lang/calamares-default_nl.ts -qm /home/bob/Documents/calamares/build/src/branding/calamares-default_nl.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating calamares-default_nl.qm"
+	cd /home/bob/Git/calamares/build/src/branding && /usr/bin/lrelease /home/bob/Git/calamares/src/branding/default/lang/calamares-default_nl.ts -qm /home/bob/Git/calamares/build/src/branding/calamares-default_nl.qm
 
 branding-translation-default: src/branding/CMakeFiles/branding-translation-default
 branding-translation-default: src/branding/calamares-default_ar.qm
@@ -108,10 +108,10 @@ src/branding/CMakeFiles/branding-translation-default.dir/build: branding-transla
 .PHONY : src/branding/CMakeFiles/branding-translation-default.dir/build
 
 src/branding/CMakeFiles/branding-translation-default.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/branding && $(CMAKE_COMMAND) -P CMakeFiles/branding-translation-default.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/branding && $(CMAKE_COMMAND) -P CMakeFiles/branding-translation-default.dir/cmake_clean.cmake
 .PHONY : src/branding/CMakeFiles/branding-translation-default.dir/clean
 
 src/branding/CMakeFiles/branding-translation-default.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/branding /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/branding /home/bob/Documents/calamares/build/src/branding/CMakeFiles/branding-translation-default.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/branding /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/branding /home/bob/Git/calamares/build/src/branding/CMakeFiles/branding-translation-default.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/branding/CMakeFiles/branding-translation-default.dir/depend
 

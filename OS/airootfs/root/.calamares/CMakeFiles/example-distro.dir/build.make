@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Utility rule file for example-distro.
 
@@ -69,9 +69,9 @@ include CMakeFiles/example-distro.dir/progress.make
 CMakeFiles/example-distro: example.sqfs
 
 example.sqfs:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating example.sqfs"
-	/usr/bin/mksquashfs /home/bob/Documents/calamares/data/example-root/ /home/bob/Documents/calamares/build/example.sqfs -all-root
-	/usr/bin/mksquashfs /sbin /bin /lib /lib64 /home/bob/Documents/calamares/build/example.sqfs -all-root
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating example.sqfs"
+	/sbin/mksquashfs /home/bob/Git/calamares/data/example-root/ /home/bob/Git/calamares/build/example.sqfs -all-root
+	/sbin/mksquashfs /sbin /bin /lib /lib64 /home/bob/Git/calamares/build/example.sqfs -all-root
 
 example-distro: CMakeFiles/example-distro
 example-distro: example.sqfs
@@ -87,6 +87,6 @@ CMakeFiles/example-distro.dir/clean:
 .PHONY : CMakeFiles/example-distro.dir/clean
 
 CMakeFiles/example-distro.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/CMakeFiles/example-distro.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares /home/bob/Git/calamares/build /home/bob/Git/calamares/build /home/bob/Git/calamares/build/CMakeFiles/example-distro.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example-distro.dir/depend
 

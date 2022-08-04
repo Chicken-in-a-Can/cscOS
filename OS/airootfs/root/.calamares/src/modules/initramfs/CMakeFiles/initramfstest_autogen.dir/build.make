@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Utility rule file for initramfstest_autogen.
 
@@ -67,8 +67,8 @@ include src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/compiler_depe
 include src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/progress.make
 
 src/modules/initramfs/CMakeFiles/initramfstest_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target initramfstest"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && /usr/bin/cmake -E cmake_autogen /home/bob/Documents/calamares/build/src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/AutogenInfo.json RelWithDebInfo
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target initramfstest"
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && /usr/bin/cmake -E cmake_autogen /home/bob/Git/calamares/build/src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/AutogenInfo.json RelWithDebInfo
 
 initramfstest_autogen: src/modules/initramfs/CMakeFiles/initramfstest_autogen
 initramfstest_autogen: src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/build.make
@@ -79,10 +79,10 @@ src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/build: initramfstest_
 .PHONY : src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/build
 
 src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && $(CMAKE_COMMAND) -P CMakeFiles/initramfstest_autogen.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && $(CMAKE_COMMAND) -P CMakeFiles/initramfstest_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/clean
 
 src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/initramfs /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/initramfs /home/bob/Documents/calamares/build/src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/initramfs /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/initramfs /home/bob/Git/calamares/build/src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/initramfs/CMakeFiles/initramfstest_autogen.dir/depend
 

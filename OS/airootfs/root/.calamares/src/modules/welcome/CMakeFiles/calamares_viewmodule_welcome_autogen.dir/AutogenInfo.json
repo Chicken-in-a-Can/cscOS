@@ -1,20 +1,20 @@
 {
-	"BUILD_DIR" : "/home/bob/Documents/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen",
-	"CMAKE_BINARY_DIR" : "/home/bob/Documents/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Documents/calamares/build/src/modules/welcome",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Documents/calamares/src/modules/welcome",
+	"BUILD_DIR" : "/home/bob/Git/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bob/Git/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Git/calamares/build/src/modules/welcome",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Git/calamares/src/modules/welcome",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/bob/Documents/calamares/src/modules/welcome/CMakeLists.txt",
-		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
-		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
-		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake",
-		"/home/bob/Documents/calamares/CMakeModules/FindLIBPARTED.cmake",
+		"/home/bob/Git/calamares/src/modules/welcome/CMakeLists.txt",
+		"/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/lib64/cmake/Qt5/Qt5Config.cmake",
+		"/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/home/bob/Git/calamares/CMakeModules/FindLIBPARTED.cmake",
 		"/usr/share/cmake/Modules/CheckCSourceCompiles.cmake",
 		"/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake",
 		"/usr/share/cmake/Modules/CheckFunctionExists.cmake",
@@ -23,66 +23,66 @@
 		"/usr/share/cmake/Modules/CheckFunctionExists.c",
 		"/usr/share/cmake/Modules/CheckFunctionExists.c",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/bob/Documents/calamares/src/modules/welcome/welcome.conf",
-		"/home/bob/Documents/calamares/src/modules/welcome/welcome.qrc"
+		"/home/bob/Git/calamares/src/modules/welcome/welcome.conf",
+		"/home/bob/Git/calamares/src/modules/welcome/welcome.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/bob/Documents/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/bob/Git/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/Config.h",
+			"/home/bob/Git/calamares/src/modules/welcome/Config.h",
 			"MU",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/WelcomePage.h",
+			"/home/bob/Git/calamares/src/modules/welcome/WelcomePage.h",
 			"MU",
 			"EWIEGA46WW/moc_WelcomePage.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/WelcomeViewStep.h",
+			"/home/bob/Git/calamares/src/modules/welcome/WelcomeViewStep.h",
 			"MU",
 			"EWIEGA46WW/moc_WelcomeViewStep.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/CheckerContainer.h",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/CheckerContainer.h",
 			"MU",
 			"JPFYYQWDSP/moc_CheckerContainer.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/GeneralRequirements.h",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/GeneralRequirements.h",
 			"MU",
 			"JPFYYQWDSP/moc_GeneralRequirements.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/ResultDelegate.h",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/ResultDelegate.h",
 			"MU",
 			"JPFYYQWDSP/moc_ResultDelegate.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/ResultsListWidget.h",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/ResultsListWidget.h",
 			"MU",
 			"JPFYYQWDSP/moc_ResultsListWidget.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/partman_devices.h",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/partman_devices.h",
 			"MU",
 			"JPFYYQWDSP/moc_partman_devices.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/bob/Documents/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/bob/Documents/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/bob/Git/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bob/Git/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -125,12 +125,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/bob/Documents/calamares/src/libcalamares",
-		"/home/bob/Documents/calamares/build/src/libcalamares",
-		"/home/bob/Documents/calamares/src/libcalamaresui",
-		"/home/bob/Documents/calamares/src/modules/welcome",
-		"/home/bob/Documents/calamares/build/src/modules/welcome",
-		"/usr/local/include/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamares",
+		"/home/bob/Git/calamares/build/src/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamaresui",
+		"/home/bob/Git/calamares/src/modules/welcome",
+		"/home/bob/Git/calamares/build/src/modules/welcome",
+		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -146,12 +146,12 @@
 		"/usr/include/qt/QtQmlModels",
 		"/usr/include/qt/QtQml",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.1.1",
+		"/usr/include/c++/12.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -168,62 +168,58 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/sbin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/bob/Documents/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/bob/Git/calamares/build/src/modules/welcome/calamares_viewmodule_welcome_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/bob/Documents/calamares/build/src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/bob/Git/calamares/build/src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/bob/Documents/calamares/build/src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/bob/Git/calamares/build/src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/bob/Git/calamares/src/modules/welcome/Config.cpp", "MU", null ],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/Config.cpp",
+			"/home/bob/Git/calamares/src/modules/welcome/WelcomePage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/WelcomePage.cpp",
+			"/home/bob/Git/calamares/src/modules/welcome/WelcomeViewStep.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/WelcomeViewStep.cpp",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/CheckerContainer.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/CheckerContainer.cpp",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/GeneralRequirements.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/GeneralRequirements.cpp",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/ResultDelegate.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/ResultDelegate.cpp",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/ResultsListWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/ResultsListWidget.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/bob/Documents/calamares/src/modules/welcome/checker/partman_devices.c",
+			"/home/bob/Git/calamares/src/modules/welcome/checker/partman_devices.c",
 			"MU",
 			null
 		]

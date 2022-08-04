@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bob/Documents/calamares/src/modules/initcpio/Tests.cpp" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/Tests.cpp.o" "gcc" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/Tests.cpp.o.d"
-  "/home/bob/Documents/calamares/build/src/modules/initcpio/initcpiotest_autogen/mocs_compilation.cpp" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/initcpiotest_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/initcpiotest_autogen/mocs_compilation.cpp.o.d"
+  "/home/bob/Git/calamares/src/modules/initcpio/Tests.cpp" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/Tests.cpp.o" "gcc" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/Tests.cpp.o.d"
+  "/home/bob/Git/calamares/build/src/modules/initcpio/initcpiotest_autogen/mocs_compilation.cpp" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/initcpiotest_autogen/mocs_compilation.cpp.o" "gcc" "src/modules/initcpio/CMakeFiles/initcpiotest.dir/initcpiotest_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/bob/Documents/calamares/build/src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/DependInfo.cmake"
-  "/home/bob/Documents/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
+  "/home/bob/Git/calamares/build/src/modules/initcpio/CMakeFiles/calamares_job_initcpio.dir/DependInfo.cmake"
+  "/home/bob/Git/calamares/build/src/libcalamares/CMakeFiles/calamares.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Utility rule file for calamares_viewmodule_keyboard_autogen.
 
@@ -67,8 +67,8 @@ include src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.di
 include src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/progress.make
 
 src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calamares_viewmodule_keyboard"
-	cd /home/bob/Documents/calamares/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autogen /home/bob/Documents/calamares/build/src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/AutogenInfo.json RelWithDebInfo
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calamares_viewmodule_keyboard"
+	cd /home/bob/Git/calamares/build/src/modules/keyboard && /usr/bin/cmake -E cmake_autogen /home/bob/Git/calamares/build/src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/AutogenInfo.json RelWithDebInfo
 
 calamares_viewmodule_keyboard_autogen: src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen
 calamares_viewmodule_keyboard_autogen: src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/build.make
@@ -79,10 +79,10 @@ src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/build:
 .PHONY : src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/build
 
 src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/keyboard && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/keyboard && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/cmake_clean.cmake
 .PHONY : src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/clean
 
 src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/keyboard /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/keyboard /home/bob/Documents/calamares/build/src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/keyboard /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/keyboard /home/bob/Git/calamares/build/src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/keyboard/CMakeFiles/calamares_viewmodule_keyboard_autogen.dir/depend
 

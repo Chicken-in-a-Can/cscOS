@@ -1,52 +1,52 @@
 {
-	"BUILD_DIR" : "/home/bob/Documents/calamares/build/src/modules/locale/localetest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/bob/Documents/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Documents/calamares/build/src/modules/locale",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Documents/calamares/src/modules/locale",
+	"BUILD_DIR" : "/home/bob/Git/calamares/build/src/modules/locale/localetest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bob/Git/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Git/calamares/build/src/modules/locale",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Git/calamares/src/modules/locale",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/bob/Documents/calamares/src/modules/locale/CMakeLists.txt",
+		"/home/bob/Git/calamares/src/modules/locale/CMakeLists.txt",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/bob/Documents/calamares/src/modules/locale/locale.conf",
-		"/home/bob/Documents/calamares/src/modules/locale/locale.qrc"
+		"/home/bob/Git/calamares/src/modules/locale/locale.conf",
+		"/home/bob/Git/calamares/src/modules/locale/locale.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/bob/Documents/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/bob/Git/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/locale/Config.h",
+			"/home/bob/Git/calamares/src/modules/locale/Config.h",
 			"Mu",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/locale/LocaleConfiguration.h",
+			"/home/bob/Git/calamares/src/modules/locale/LocaleConfiguration.h",
 			"Mu",
 			"EWIEGA46WW/moc_LocaleConfiguration.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/locale/SetTimezoneJob.h",
+			"/home/bob/Git/calamares/src/modules/locale/SetTimezoneJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_SetTimezoneJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/locale/timezonewidget/TimeZoneImage.h",
+			"/home/bob/Git/calamares/src/modules/locale/timezonewidget/TimeZoneImage.h",
 			"Mu",
 			"KOI7P2B5DO/moc_TimeZoneImage.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/bob/Documents/calamares/build/src/modules/locale/localetest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/bob/Documents/calamares/build/src/modules/locale/localetest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/bob/Git/calamares/build/src/modules/locale/localetest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bob/Git/calamares/build/src/modules/locale/localetest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/bob/Documents/calamares/src/modules/locale\"",
+		"BUILD_AS_TEST=\"/home/bob/Git/calamares/src/modules/locale\"",
 		"DEBUG_TIMEZONES=1",
 		"KCOREADDONS_LIB",
 		"QT_CORE_LIB",
@@ -57,9 +57,9 @@
 		"QT_SHARED",
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
-		"QT_TESTCASE_BUILDDIR=\"/home/bob/Documents/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/bob/Git/calamares/build\"",
 		"QT_TESTLIB_LIB",
-		"SOURCE_DIR=\"/home/bob/Documents/calamares/src/modules/locale/images\""
+		"SOURCE_DIR=\"/home/bob/Git/calamares/src/modules/locale/images\""
 	],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -82,13 +82,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/bob/Documents/calamares/src/libcalamares",
-		"/home/bob/Documents/calamares/build/src/libcalamares",
-		"/home/bob/Documents/calamares/src/libcalamaresui",
-		"/home/bob/Documents/calamares/build/src/libcalamaresui",
-		"/home/bob/Documents/calamares/src/modules/locale",
-		"/home/bob/Documents/calamares/build/src/modules/locale",
-		"/usr/local/include/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamares",
+		"/home/bob/Git/calamares/build/src/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamaresui",
+		"/home/bob/Git/calamares/build/src/libcalamaresui",
+		"/home/bob/Git/calamares/src/modules/locale",
+		"/home/bob/Git/calamares/build/src/modules/locale",
+		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -97,12 +97,12 @@
 		"/usr/include/qt/QtGui",
 		"/usr/include/qt/QtTest",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.1.1",
+		"/usr/include/c++/12.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -119,51 +119,43 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/sbin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/bob/Documents/calamares/build/src/modules/locale/localetest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/bob/Git/calamares/build/src/modules/locale/localetest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/bob/Documents/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/EWIEGA46WW/qrc_locale.cpp",
-		"/home/bob/Documents/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/mocs_compilation.cpp"
+		"/home/bob/Git/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/EWIEGA46WW/qrc_locale.cpp",
+		"/home/bob/Git/calamares/build/src/modules/locale/calamares_viewmodule_locale_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/bob/Documents/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/bob/Git/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/bob/Documents/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/bob/Git/calamares/build/src/modules/locale/CMakeFiles/localetest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/bob/Git/calamares/src/modules/locale/Config.cpp", "Mu", null ],
 		[
-			"/home/bob/Documents/calamares/src/modules/locale/Config.cpp",
+			"/home/bob/Git/calamares/src/modules/locale/LocaleConfiguration.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/locale/LocaleConfiguration.cpp",
+			"/home/bob/Git/calamares/src/modules/locale/SetTimezoneJob.cpp",
 			"Mu",
 			null
 		],
+		[ "/home/bob/Git/calamares/src/modules/locale/Tests.cpp", "Mu", null ],
 		[
-			"/home/bob/Documents/calamares/src/modules/locale/SetTimezoneJob.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/home/bob/Documents/calamares/src/modules/locale/Tests.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/home/bob/Documents/calamares/src/modules/locale/timezonewidget/TimeZoneImage.cpp",
+			"/home/bob/Git/calamares/src/modules/locale/timezonewidget/TimeZoneImage.cpp",
 			"Mu",
 			null
 		]

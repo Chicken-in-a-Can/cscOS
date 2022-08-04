@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Documents/calamares/build/CPackSourceConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Git/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles /home/bob/Documents/calamares/build/src/modules/welcome//CMakeFiles/progress.marks
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles /home/bob/Git/calamares/build/src/modules/welcome//CMakeFiles/progress.marks
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/clean
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/rule
 .PHONY : src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_welcome: src/modules/welcome/CMakeFiles/calamares_viewmodul
 
 # fast build rule for target.
 calamares_viewmodule_welcome/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build
 .PHONY : calamares_viewmodule_welcome/fast
 
 # Convenience name for target.
 src/modules/welcome/CMakeFiles/welcometest.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/welcometest.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/welcometest.dir/rule
 .PHONY : src/modules/welcome/CMakeFiles/welcometest.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ welcometest: src/modules/welcome/CMakeFiles/welcometest.dir/rule
 
 # fast build rule for target.
 welcometest/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/build
 .PHONY : welcometest/fast
 
 # Convenience name for target.
 src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/rule
 .PHONY : src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ calamares_viewmodule_welcome_autogen: src/modules/welcome/CMakeFiles/calamares_v
 
 # fast build rule for target.
 calamares_viewmodule_welcome_autogen/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome_autogen.dir/build
 .PHONY : calamares_viewmodule_welcome_autogen/fast
 
 # Convenience name for target.
 src/modules/welcome/CMakeFiles/welcometest_autogen.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/welcometest_autogen.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/welcome/CMakeFiles/welcometest_autogen.dir/rule
 .PHONY : src/modules/welcome/CMakeFiles/welcometest_autogen.dir/rule
 
 # Convenience name for target.
@@ -244,7 +244,7 @@ welcometest_autogen: src/modules/welcome/CMakeFiles/welcometest_autogen.dir/rule
 
 # fast build rule for target.
 welcometest_autogen/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest_autogen.dir/build.make src/modules/welcome/CMakeFiles/welcometest_autogen.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest_autogen.dir/build.make src/modules/welcome/CMakeFiles/welcometest_autogen.dir/build
 .PHONY : welcometest_autogen/fast
 
 Config.o: Config.cpp.o
@@ -252,8 +252,8 @@ Config.o: Config.cpp.o
 
 # target to build an object file
 Config.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/Config.cpp.o
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/Config.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.o
 .PHONY : Config.cpp.o
 
 Config.i: Config.cpp.i
@@ -261,8 +261,8 @@ Config.i: Config.cpp.i
 
 # target to preprocess a source file
 Config.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/Config.cpp.i
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/Config.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.i
 .PHONY : Config.cpp.i
 
 Config.s: Config.cpp.s
@@ -270,8 +270,8 @@ Config.s: Config.cpp.s
 
 # target to generate assembly for a file
 Config.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/Config.cpp.s
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/Config.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
 Tests.o: Tests.cpp.o
@@ -279,7 +279,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -287,7 +287,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -295,7 +295,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 WelcomePage.o: WelcomePage.cpp.o
@@ -303,7 +303,7 @@ WelcomePage.o: WelcomePage.cpp.o
 
 # target to build an object file
 WelcomePage.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomePage.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomePage.cpp.o
 .PHONY : WelcomePage.cpp.o
 
 WelcomePage.i: WelcomePage.cpp.i
@@ -311,7 +311,7 @@ WelcomePage.i: WelcomePage.cpp.i
 
 # target to preprocess a source file
 WelcomePage.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomePage.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomePage.cpp.i
 .PHONY : WelcomePage.cpp.i
 
 WelcomePage.s: WelcomePage.cpp.s
@@ -319,7 +319,7 @@ WelcomePage.s: WelcomePage.cpp.s
 
 # target to generate assembly for a file
 WelcomePage.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomePage.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomePage.cpp.s
 .PHONY : WelcomePage.cpp.s
 
 WelcomeViewStep.o: WelcomeViewStep.cpp.o
@@ -327,7 +327,7 @@ WelcomeViewStep.o: WelcomeViewStep.cpp.o
 
 # target to build an object file
 WelcomeViewStep.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomeViewStep.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomeViewStep.cpp.o
 .PHONY : WelcomeViewStep.cpp.o
 
 WelcomeViewStep.i: WelcomeViewStep.cpp.i
@@ -335,7 +335,7 @@ WelcomeViewStep.i: WelcomeViewStep.cpp.i
 
 # target to preprocess a source file
 WelcomeViewStep.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomeViewStep.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomeViewStep.cpp.i
 .PHONY : WelcomeViewStep.cpp.i
 
 WelcomeViewStep.s: WelcomeViewStep.cpp.s
@@ -343,7 +343,7 @@ WelcomeViewStep.s: WelcomeViewStep.cpp.s
 
 # target to generate assembly for a file
 WelcomeViewStep.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomeViewStep.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/WelcomeViewStep.cpp.s
 .PHONY : WelcomeViewStep.cpp.s
 
 calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.o: calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.o
@@ -351,7 +351,7 @@ calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.o: calamares_viewmod
 
 # target to build an object file
 calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.o
 .PHONY : calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.o
 
 calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.i: calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.i
@@ -359,7 +359,7 @@ calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.i: calamares_viewmod
 
 # target to preprocess a source file
 calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.i
 .PHONY : calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.i
 
 calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.s: calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.s
@@ -367,7 +367,7 @@ calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.s: calamares_viewmod
 
 # target to generate assembly for a file
 calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.s
 .PHONY : calamares_viewmodule_welcome_autogen/EWIEGA46WW/qrc_welcome.cpp.s
 
 calamares_viewmodule_welcome_autogen/mocs_compilation.o: calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.o
@@ -375,7 +375,7 @@ calamares_viewmodule_welcome_autogen/mocs_compilation.o: calamares_viewmodule_we
 
 # target to build an object file
 calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_welcome_autogen/mocs_compilation.i: calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.i
@@ -383,7 +383,7 @@ calamares_viewmodule_welcome_autogen/mocs_compilation.i: calamares_viewmodule_we
 
 # target to preprocess a source file
 calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_welcome_autogen/mocs_compilation.s: calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.s
@@ -391,7 +391,7 @@ calamares_viewmodule_welcome_autogen/mocs_compilation.s: calamares_viewmodule_we
 
 # target to generate assembly for a file
 calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_welcome_autogen/mocs_compilation.cpp.s
 
 checker/CheckerContainer.o: checker/CheckerContainer.cpp.o
@@ -399,7 +399,7 @@ checker/CheckerContainer.o: checker/CheckerContainer.cpp.o
 
 # target to build an object file
 checker/CheckerContainer.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/CheckerContainer.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/CheckerContainer.cpp.o
 .PHONY : checker/CheckerContainer.cpp.o
 
 checker/CheckerContainer.i: checker/CheckerContainer.cpp.i
@@ -407,7 +407,7 @@ checker/CheckerContainer.i: checker/CheckerContainer.cpp.i
 
 # target to preprocess a source file
 checker/CheckerContainer.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/CheckerContainer.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/CheckerContainer.cpp.i
 .PHONY : checker/CheckerContainer.cpp.i
 
 checker/CheckerContainer.s: checker/CheckerContainer.cpp.s
@@ -415,7 +415,7 @@ checker/CheckerContainer.s: checker/CheckerContainer.cpp.s
 
 # target to generate assembly for a file
 checker/CheckerContainer.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/CheckerContainer.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/CheckerContainer.cpp.s
 .PHONY : checker/CheckerContainer.cpp.s
 
 checker/GeneralRequirements.o: checker/GeneralRequirements.cpp.o
@@ -423,8 +423,8 @@ checker/GeneralRequirements.o: checker/GeneralRequirements.cpp.o
 
 # target to build an object file
 checker/GeneralRequirements.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/GeneralRequirements.cpp.o
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/GeneralRequirements.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.o
 .PHONY : checker/GeneralRequirements.cpp.o
 
 checker/GeneralRequirements.i: checker/GeneralRequirements.cpp.i
@@ -432,8 +432,8 @@ checker/GeneralRequirements.i: checker/GeneralRequirements.cpp.i
 
 # target to preprocess a source file
 checker/GeneralRequirements.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/GeneralRequirements.cpp.i
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/GeneralRequirements.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.i
 .PHONY : checker/GeneralRequirements.cpp.i
 
 checker/GeneralRequirements.s: checker/GeneralRequirements.cpp.s
@@ -441,8 +441,8 @@ checker/GeneralRequirements.s: checker/GeneralRequirements.cpp.s
 
 # target to generate assembly for a file
 checker/GeneralRequirements.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/GeneralRequirements.cpp.s
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/GeneralRequirements.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/GeneralRequirements.cpp.s
 .PHONY : checker/GeneralRequirements.cpp.s
 
 checker/ResultDelegate.o: checker/ResultDelegate.cpp.o
@@ -450,7 +450,7 @@ checker/ResultDelegate.o: checker/ResultDelegate.cpp.o
 
 # target to build an object file
 checker/ResultDelegate.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultDelegate.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultDelegate.cpp.o
 .PHONY : checker/ResultDelegate.cpp.o
 
 checker/ResultDelegate.i: checker/ResultDelegate.cpp.i
@@ -458,7 +458,7 @@ checker/ResultDelegate.i: checker/ResultDelegate.cpp.i
 
 # target to preprocess a source file
 checker/ResultDelegate.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultDelegate.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultDelegate.cpp.i
 .PHONY : checker/ResultDelegate.cpp.i
 
 checker/ResultDelegate.s: checker/ResultDelegate.cpp.s
@@ -466,7 +466,7 @@ checker/ResultDelegate.s: checker/ResultDelegate.cpp.s
 
 # target to generate assembly for a file
 checker/ResultDelegate.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultDelegate.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultDelegate.cpp.s
 .PHONY : checker/ResultDelegate.cpp.s
 
 checker/ResultsListWidget.o: checker/ResultsListWidget.cpp.o
@@ -474,7 +474,7 @@ checker/ResultsListWidget.o: checker/ResultsListWidget.cpp.o
 
 # target to build an object file
 checker/ResultsListWidget.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultsListWidget.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultsListWidget.cpp.o
 .PHONY : checker/ResultsListWidget.cpp.o
 
 checker/ResultsListWidget.i: checker/ResultsListWidget.cpp.i
@@ -482,7 +482,7 @@ checker/ResultsListWidget.i: checker/ResultsListWidget.cpp.i
 
 # target to preprocess a source file
 checker/ResultsListWidget.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultsListWidget.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultsListWidget.cpp.i
 .PHONY : checker/ResultsListWidget.cpp.i
 
 checker/ResultsListWidget.s: checker/ResultsListWidget.cpp.s
@@ -490,7 +490,7 @@ checker/ResultsListWidget.s: checker/ResultsListWidget.cpp.s
 
 # target to generate assembly for a file
 checker/ResultsListWidget.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultsListWidget.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/ResultsListWidget.cpp.s
 .PHONY : checker/ResultsListWidget.cpp.s
 
 checker/partman_devices.o: checker/partman_devices.c.o
@@ -498,8 +498,8 @@ checker/partman_devices.o: checker/partman_devices.c.o
 
 # target to build an object file
 checker/partman_devices.c.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/partman_devices.c.o
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/partman_devices.c.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.o
 .PHONY : checker/partman_devices.c.o
 
 checker/partman_devices.i: checker/partman_devices.c.i
@@ -507,8 +507,8 @@ checker/partman_devices.i: checker/partman_devices.c.i
 
 # target to preprocess a source file
 checker/partman_devices.c.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/partman_devices.c.i
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/partman_devices.c.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.i
 .PHONY : checker/partman_devices.c.i
 
 checker/partman_devices.s: checker/partman_devices.c.s
@@ -516,8 +516,8 @@ checker/partman_devices.s: checker/partman_devices.c.s
 
 # target to generate assembly for a file
 checker/partman_devices.c.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/partman_devices.c.s
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/build.make src/modules/welcome/CMakeFiles/calamares_viewmodule_welcome.dir/checker/partman_devices.c.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/checker/partman_devices.c.s
 .PHONY : checker/partman_devices.c.s
 
 welcometest_autogen/mocs_compilation.o: welcometest_autogen/mocs_compilation.cpp.o
@@ -525,7 +525,7 @@ welcometest_autogen/mocs_compilation.o: welcometest_autogen/mocs_compilation.cpp
 
 # target to build an object file
 welcometest_autogen/mocs_compilation.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.o
 .PHONY : welcometest_autogen/mocs_compilation.cpp.o
 
 welcometest_autogen/mocs_compilation.i: welcometest_autogen/mocs_compilation.cpp.i
@@ -533,7 +533,7 @@ welcometest_autogen/mocs_compilation.i: welcometest_autogen/mocs_compilation.cpp
 
 # target to preprocess a source file
 welcometest_autogen/mocs_compilation.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.i
 .PHONY : welcometest_autogen/mocs_compilation.cpp.i
 
 welcometest_autogen/mocs_compilation.s: welcometest_autogen/mocs_compilation.cpp.s
@@ -541,7 +541,7 @@ welcometest_autogen/mocs_compilation.s: welcometest_autogen/mocs_compilation.cpp
 
 # target to generate assembly for a file
 welcometest_autogen/mocs_compilation.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/welcome/CMakeFiles/welcometest.dir/build.make src/modules/welcome/CMakeFiles/welcometest.dir/welcometest_autogen/mocs_compilation.cpp.s
 .PHONY : welcometest_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -610,6 +610,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

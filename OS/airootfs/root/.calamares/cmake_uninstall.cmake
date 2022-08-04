@@ -1,11 +1,11 @@
 #   SPDX-FileCopyrightText: 2014 Teo Mrnjavac <teo@kde.org>
 #   SPDX-License-Identifier: BSD-2-Clause
 
-IF(NOT EXISTS "/home/bob/Documents/calamares/build/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/bob/Documents/calamares/build/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/bob/Documents/calamares/build/install_manifest.txt")
+IF(NOT EXISTS "/home/bob/Git/calamares/build/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/bob/Git/calamares/build/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/bob/Git/calamares/build/install_manifest.txt")
 
-FILE(READ "/home/bob/Documents/calamares/build/install_manifest.txt" files)
+FILE(READ "/home/bob/Git/calamares/build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

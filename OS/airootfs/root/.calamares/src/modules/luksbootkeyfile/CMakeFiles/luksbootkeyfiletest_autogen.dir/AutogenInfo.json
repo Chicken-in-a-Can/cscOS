@@ -1,32 +1,32 @@
 {
-	"BUILD_DIR" : "/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/bob/Documents/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Documents/calamares/src/modules/luksbootkeyfile",
+	"BUILD_DIR" : "/home/bob/Git/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bob/Git/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Git/calamares/build/src/modules/luksbootkeyfile",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Git/calamares/src/modules/luksbootkeyfile",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/bob/Documents/calamares/src/modules/luksbootkeyfile/CMakeLists.txt",
+		"/home/bob/Git/calamares/src/modules/luksbootkeyfile/CMakeLists.txt",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/bob/Documents/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/bob/Git/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/luksbootkeyfile/LuksBootKeyFileJob.h",
+			"/home/bob/Git/calamares/src/modules/luksbootkeyfile/LuksBootKeyFileJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_LuksBootKeyFileJob.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/bob/Git/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bob/Git/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/bob/Documents/calamares/src/modules/luksbootkeyfile\"",
+		"BUILD_AS_TEST=\"/home/bob/Git/calamares/src/modules/luksbootkeyfile\"",
 		"KCOREADDONS_LIB",
 		"QT_CORE_LIB",
 		"QT_DISABLE_DEPRECATED_BEFORE=0x050f00",
@@ -35,7 +35,7 @@
 		"QT_SHARED",
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
-		"QT_TESTCASE_BUILDDIR=\"/home/bob/Documents/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/bob/Git/calamares/build\"",
 		"QT_TESTLIB_LIB"
 	],
 	"MOC_DEPEND_FILTERS" : 
@@ -59,12 +59,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/bob/Documents/calamares/src/libcalamares",
-		"/home/bob/Documents/calamares/build/src/libcalamares",
-		"/home/bob/Documents/calamares/src/libcalamaresui",
-		"/home/bob/Documents/calamares/src/modules/luksbootkeyfile",
-		"/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile",
-		"/usr/local/include/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamares",
+		"/home/bob/Git/calamares/build/src/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamaresui",
+		"/home/bob/Git/calamares/src/modules/luksbootkeyfile",
+		"/home/bob/Git/calamares/build/src/modules/luksbootkeyfile",
+		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -72,12 +72,12 @@
 		"/usr/include/KF5",
 		"/usr/include/qt/QtTest",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.1.1",
+		"/usr/include/c++/12.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -94,35 +94,35 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/sbin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/bob/Git/calamares/build/src/modules/luksbootkeyfile/luksbootkeyfiletest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile/calamares_job_luksbootkeyfile_autogen/mocs_compilation.cpp"
+		"/home/bob/Git/calamares/build/src/modules/luksbootkeyfile/calamares_job_luksbootkeyfile_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile/CMakeFiles/luksbootkeyfiletest_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/bob/Git/calamares/build/src/modules/luksbootkeyfile/CMakeFiles/luksbootkeyfiletest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/bob/Documents/calamares/build/src/modules/luksbootkeyfile/CMakeFiles/luksbootkeyfiletest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/bob/Git/calamares/build/src/modules/luksbootkeyfile/CMakeFiles/luksbootkeyfiletest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/luksbootkeyfile/LuksBootKeyFileJob.cpp",
+			"/home/bob/Git/calamares/src/modules/luksbootkeyfile/LuksBootKeyFileJob.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/luksbootkeyfile/Tests.cpp",
+			"/home/bob/Git/calamares/src/modules/luksbootkeyfile/Tests.cpp",
 			"Mu",
 			null
 		]

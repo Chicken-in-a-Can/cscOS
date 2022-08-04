@@ -1,51 +1,51 @@
 {
-	"BUILD_DIR" : "/home/bob/Documents/calamares/build/src/modules/netinstall/netinstalltest_autogen",
-	"CMAKE_BINARY_DIR" : "/home/bob/Documents/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Documents/calamares/build/src/modules/netinstall",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Documents/calamares/src/modules/netinstall",
+	"BUILD_DIR" : "/home/bob/Git/calamares/build/src/modules/netinstall/netinstalltest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bob/Git/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Git/calamares/build/src/modules/netinstall",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Git/calamares/src/modules/netinstall",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/bob/Documents/calamares/src/modules/netinstall/CMakeLists.txt",
+		"/home/bob/Git/calamares/src/modules/netinstall/CMakeLists.txt",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/bob/Documents/calamares/src/modules/netinstall/netinstall.conf"
+		"/home/bob/Git/calamares/src/modules/netinstall/netinstall.conf"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/bob/Documents/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/bob/Git/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/Config.h",
+			"/home/bob/Git/calamares/src/modules/netinstall/Config.h",
 			"Mu",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/LoaderQueue.h",
+			"/home/bob/Git/calamares/src/modules/netinstall/LoaderQueue.h",
 			"Mu",
 			"EWIEGA46WW/moc_LoaderQueue.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/PackageModel.h",
+			"/home/bob/Git/calamares/src/modules/netinstall/PackageModel.h",
 			"Mu",
 			"EWIEGA46WW/moc_PackageModel.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/PackageTreeItem.h",
+			"/home/bob/Git/calamares/src/modules/netinstall/PackageTreeItem.h",
 			"Mu",
 			"EWIEGA46WW/moc_PackageTreeItem.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/bob/Documents/calamares/build/src/modules/netinstall/netinstalltest_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/bob/Documents/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/bob/Git/calamares/build/src/modules/netinstall/netinstalltest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bob/Git/calamares/build/src/modules/netinstall/netinstalltest_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
-		"BUILD_AS_TEST=\"/home/bob/Documents/calamares/src/modules/netinstall\"",
+		"BUILD_AS_TEST=\"/home/bob/Git/calamares/src/modules/netinstall\"",
 		"KCOREADDONS_LIB",
 		"QT_CORE_LIB",
 		"QT_DISABLE_DEPRECATED_BEFORE=0x050f00",
@@ -56,7 +56,7 @@
 		"QT_SHARED",
 		"QT_SHAREDPOINTER_TRACK_POINTERS",
 		"QT_STRICT_ITERATORS",
-		"QT_TESTCASE_BUILDDIR=\"/home/bob/Documents/calamares/build\"",
+		"QT_TESTCASE_BUILDDIR=\"/home/bob/Git/calamares/build\"",
 		"QT_TESTLIB_LIB"
 	],
 	"MOC_DEPEND_FILTERS" : 
@@ -80,12 +80,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/bob/Documents/calamares/src/libcalamares",
-		"/home/bob/Documents/calamares/build/src/libcalamares",
-		"/home/bob/Documents/calamares/src/libcalamaresui",
-		"/home/bob/Documents/calamares/src/modules/netinstall",
-		"/home/bob/Documents/calamares/build/src/modules/netinstall",
-		"/usr/local/include/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamares",
+		"/home/bob/Git/calamares/build/src/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamaresui",
+		"/home/bob/Git/calamares/src/modules/netinstall",
+		"/home/bob/Git/calamares/build/src/modules/netinstall",
+		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -95,12 +95,12 @@
 		"/usr/include/qt/QtNetwork",
 		"/usr/include/qt/QtTest",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.1.1",
+		"/usr/include/c++/12.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -117,50 +117,50 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/sbin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/bob/Documents/calamares/build/src/modules/netinstall/netinstalltest_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/bob/Git/calamares/build/src/modules/netinstall/netinstalltest_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/bob/Documents/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp"
+		"/home/bob/Git/calamares/build/src/modules/netinstall/calamares_viewmodule_netinstall_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/bob/Documents/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/bob/Git/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/bob/Documents/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/bob/Git/calamares/build/src/modules/netinstall/CMakeFiles/netinstalltest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/Config.cpp",
+			"/home/bob/Git/calamares/src/modules/netinstall/Config.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/LoaderQueue.cpp",
+			"/home/bob/Git/calamares/src/modules/netinstall/LoaderQueue.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/PackageModel.cpp",
+			"/home/bob/Git/calamares/src/modules/netinstall/PackageModel.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/PackageTreeItem.cpp",
+			"/home/bob/Git/calamares/src/modules/netinstall/PackageTreeItem.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/netinstall/Tests.cpp",
+			"/home/bob/Git/calamares/src/modules/netinstall/Tests.cpp",
 			"Mu",
 			null
 		]

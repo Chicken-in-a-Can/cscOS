@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Utility rule file for calamares-gettext-translations-python.
 
@@ -74,10 +74,10 @@ lang/CMakeFiles/calamares-gettext-translations-python.dir/build: calamares-gette
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/build
 
 lang/CMakeFiles/calamares-gettext-translations-python.dir/clean:
-	cd /home/bob/Documents/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-gettext-translations-python.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/lang && $(CMAKE_COMMAND) -P CMakeFiles/calamares-gettext-translations-python.dir/cmake_clean.cmake
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/clean
 
 lang/CMakeFiles/calamares-gettext-translations-python.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/lang /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/lang /home/bob/Documents/calamares/build/lang/CMakeFiles/calamares-gettext-translations-python.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/lang /home/bob/Git/calamares/build /home/bob/Git/calamares/build/lang /home/bob/Git/calamares/build/lang/CMakeFiles/calamares-gettext-translations-python.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lang/CMakeFiles/calamares-gettext-translations-python.dir/depend
 

@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/calamaresui.dir/modulesystem/ModuleManager.cpp.o.d"
   "CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.o"
   "CMakeFiles/calamaresui.dir/modulesystem/ProcessJobModule.cpp.o.d"
+  "CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o"
+  "CMakeFiles/calamaresui.dir/modulesystem/PythonJobModule.cpp.o.d"
   "CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o"
   "CMakeFiles/calamaresui.dir/modulesystem/ViewModule.cpp.o.d"
   "CMakeFiles/calamaresui.dir/utils/CalamaresUtilsGui.cpp.o"

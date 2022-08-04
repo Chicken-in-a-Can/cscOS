@@ -1,25 +1,25 @@
 {
-	"BUILD_DIR" : "/home/bob/Documents/calamares/build/src/modules/users/users_internal_autogen",
-	"CMAKE_BINARY_DIR" : "/home/bob/Documents/calamares/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Documents/calamares/build/src/modules/users",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Documents/calamares/src/modules/users",
+	"BUILD_DIR" : "/home/bob/Git/calamares/build/src/modules/users/users_internal_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bob/Git/calamares/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bob/Git/calamares/build/src/modules/users",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bob/Git/calamares/src/modules/users",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/bob/Documents/calamares/src/modules/users/CMakeLists.txt",
-		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
-		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
-		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
-		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake",
-		"/home/bob/Documents/calamares/CMakeModules/FindCrypt.cmake",
+		"/home/bob/Git/calamares/src/modules/users/CMakeLists.txt",
+		"/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/lib64/cmake/Qt5/Qt5Config.cmake",
+		"/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/lib64/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/home/bob/Git/calamares/CMakeModules/FindCrypt.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
-		"/home/bob/Documents/calamares/CMakeModules/FindLibPWQuality.cmake",
+		"/home/bob/Git/calamares/CMakeModules/FindLibPWQuality.cmake",
 		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
@@ -31,57 +31,59 @@
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake",
-		"/home/bob/Documents/calamares/src/modules/users/users.conf",
-		"/home/bob/Documents/calamares/src/modules/users/users.qrc"
+		"/home/bob/Git/calamares/src/modules/users/users.conf",
+		"/home/bob/Git/calamares/src/modules/users/users.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/bob/Documents/calamares",
+	"CMAKE_SOURCE_DIR" : "/home/bob/Git/calamares",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/users/CheckPWQuality.h",
+			"/home/bob/Git/calamares/src/modules/users/CheckPWQuality.h",
 			"Mu",
 			"EWIEGA46WW/moc_CheckPWQuality.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/users/Config.h",
+			"/home/bob/Git/calamares/src/modules/users/Config.h",
 			"Mu",
 			"EWIEGA46WW/moc_Config.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/users/CreateUserJob.h",
+			"/home/bob/Git/calamares/src/modules/users/CreateUserJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_CreateUserJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/users/MiscJobs.h",
+			"/home/bob/Git/calamares/src/modules/users/MiscJobs.h",
 			"Mu",
 			"EWIEGA46WW/moc_MiscJobs.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/users/SetHostNameJob.h",
+			"/home/bob/Git/calamares/src/modules/users/SetHostNameJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_SetHostNameJob.cpp",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/users/SetPasswordJob.h",
+			"/home/bob/Git/calamares/src/modules/users/SetPasswordJob.h",
 			"Mu",
 			"EWIEGA46WW/moc_SetPasswordJob.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/bob/Documents/calamares/build/src/modules/users/users_internal_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/bob/Documents/calamares/build/src/modules/users/users_internal_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/bob/Git/calamares/build/src/modules/users/users_internal_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bob/Git/calamares/build/src/modules/users/users_internal_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
+		"CHECK_PWQUALITY",
 		"HAVE_ICU",
+		"HAVE_LIBPWQUALITY",
 		"KCOREADDONS_LIB",
 		"PLUGINDLLEXPORT_PRO",
 		"QT_CORE_LIB",
@@ -115,13 +117,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/bob/Documents/calamares/src/libcalamares",
-		"/home/bob/Documents/calamares/build/src/libcalamares",
-		"/home/bob/Documents/calamares/src/libcalamaresui",
-		"/home/bob/Documents/calamares/build/src/libcalamaresui",
-		"/home/bob/Documents/calamares/src/modules/users",
-		"/home/bob/Documents/calamares/build/src/modules/users",
-		"/usr/local/include/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamares",
+		"/home/bob/Git/calamares/build/src/libcalamares",
+		"/home/bob/Git/calamares/src/libcalamaresui",
+		"/home/bob/Git/calamares/build/src/libcalamaresui",
+		"/home/bob/Git/calamares/src/modules/users",
+		"/home/bob/Git/calamares/build/src/modules/users",
+		"/usr/include/libcalamares",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -131,12 +133,12 @@
 		"/usr/include/qt/QtWidgets",
 		"/usr/include/qt/QtDBus",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.1.1",
+		"/usr/include/c++/12.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -153,52 +155,44 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/sbin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/bob/Documents/calamares/build/src/modules/users/users_internal_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/bob/Git/calamares/build/src/modules/users/users_internal_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/bob/Documents/calamares/build/src/modules/users/CMakeFiles/users_internal_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/bob/Git/calamares/build/src/modules/users/CMakeFiles/users_internal_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/bob/Documents/calamares/build/src/modules/users/CMakeFiles/users_internal_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/bob/Git/calamares/build/src/modules/users/CMakeFiles/users_internal_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/bob/Documents/calamares/src/modules/users/CheckPWQuality.cpp",
+			"/home/bob/Git/calamares/src/modules/users/CheckPWQuality.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/bob/Git/calamares/src/modules/users/Config.cpp", "Mu", null ],
+		[
+			"/home/bob/Git/calamares/src/modules/users/CreateUserJob.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/bob/Git/calamares/src/modules/users/MiscJobs.cpp", "Mu", null ],
+		[
+			"/home/bob/Git/calamares/src/modules/users/SetHostNameJob.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/bob/Documents/calamares/src/modules/users/Config.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/home/bob/Documents/calamares/src/modules/users/CreateUserJob.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/home/bob/Documents/calamares/src/modules/users/MiscJobs.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/home/bob/Documents/calamares/src/modules/users/SetHostNameJob.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/home/bob/Documents/calamares/src/modules/users/SetPasswordJob.cpp",
+			"/home/bob/Git/calamares/src/modules/users/SetPasswordJob.cpp",
 			"Mu",
 			null
 		]

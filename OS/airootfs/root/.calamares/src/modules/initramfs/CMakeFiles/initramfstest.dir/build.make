@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/initramfs/CMakeFiles/initramfstest.dir/depend.make
@@ -72,30 +72,30 @@ include src/modules/initramfs/CMakeFiles/initramfstest.dir/flags.make
 src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o: src/modules/initramfs/CMakeFiles/initramfstest.dir/flags.make
 src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o: src/modules/initramfs/initramfstest_autogen/mocs_compilation.cpp
 src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o: src/modules/initramfs/CMakeFiles/initramfstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/modules/initramfs/initramfstest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/modules/initramfs/initramfstest_autogen/mocs_compilation.cpp
 
 src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/initramfs/initramfstest_autogen/mocs_compilation.cpp > CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/initramfs/initramfstest_autogen/mocs_compilation.cpp > CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.i
 
 src/modules/initramfs/CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/initramfs/initramfstest_autogen/mocs_compilation.cpp -o CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/initramfs/initramfstest_autogen/mocs_compilation.cpp -o CMakeFiles/initramfstest.dir/initramfstest_autogen/mocs_compilation.cpp.s
 
 src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.o: src/modules/initramfs/CMakeFiles/initramfstest.dir/flags.make
 src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.o: ../src/modules/initramfs/Tests.cpp
 src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.o: src/modules/initramfs/CMakeFiles/initramfstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.o -MF CMakeFiles/initramfstest.dir/Tests.cpp.o.d -o CMakeFiles/initramfstest.dir/Tests.cpp.o -c /home/bob/Documents/calamares/src/modules/initramfs/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.o -MF CMakeFiles/initramfstest.dir/Tests.cpp.o.d -o CMakeFiles/initramfstest.dir/Tests.cpp.o -c /home/bob/Git/calamares/src/modules/initramfs/Tests.cpp
 
 src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/initramfstest.dir/Tests.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/initramfs/Tests.cpp > CMakeFiles/initramfstest.dir/Tests.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/initramfs/Tests.cpp > CMakeFiles/initramfstest.dir/Tests.cpp.i
 
 src/modules/initramfs/CMakeFiles/initramfstest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/initramfstest.dir/Tests.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/initramfs/Tests.cpp -o CMakeFiles/initramfstest.dir/Tests.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/initramfs/Tests.cpp -o CMakeFiles/initramfstest.dir/Tests.cpp.s
 
 # Object files for target initramfstest
 initramfstest_OBJECTS = \
@@ -118,18 +118,18 @@ initramfstest: /usr/lib/libQt5Widgets.so.5.15.5
 initramfstest: /usr/lib/libQt5Gui.so.5.15.5
 initramfstest: /usr/lib/libQt5Core.so.5.15.5
 initramfstest: src/modules/initramfs/CMakeFiles/initramfstest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../initramfstest"
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/initramfstest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../initramfstest"
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/initramfstest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/initramfs/CMakeFiles/initramfstest.dir/build: initramfstest
 .PHONY : src/modules/initramfs/CMakeFiles/initramfstest.dir/build
 
 src/modules/initramfs/CMakeFiles/initramfstest.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/initramfs && $(CMAKE_COMMAND) -P CMakeFiles/initramfstest.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/initramfs && $(CMAKE_COMMAND) -P CMakeFiles/initramfstest.dir/cmake_clean.cmake
 .PHONY : src/modules/initramfs/CMakeFiles/initramfstest.dir/clean
 
 src/modules/initramfs/CMakeFiles/initramfstest.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/initramfs /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/initramfs /home/bob/Documents/calamares/build/src/modules/initramfs/CMakeFiles/initramfstest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/initramfs /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/initramfs /home/bob/Git/calamares/build/src/modules/initramfs/CMakeFiles/initramfstest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/initramfs/CMakeFiles/initramfstest.dir/depend
 

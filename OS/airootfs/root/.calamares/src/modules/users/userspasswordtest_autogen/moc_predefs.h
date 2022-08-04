@@ -5,7 +5,7 @@
 #define __UINT_LEAST16_MAX__ 0xffff
 #define __FLT16_HAS_QUIET_NAN__ 1
 #define __ATOMIC_ACQUIRE 2
-#define QT_TESTCASE_BUILDDIR "/home/bob/Documents/calamares/build"
+#define QT_TESTCASE_BUILDDIR "/home/bob/Git/calamares/build"
 #define __FLT128_MAX_10_EXP__ 4932
 #define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
 #define __GCC_IEC_559_COMPLEX 2
@@ -129,6 +129,7 @@
 #define __MMX__ 1
 #define __FLT_HAS_DENORM__ 1
 #define __SIZEOF_LONG_DOUBLE__ 16
+#define CHECK_PWQUALITY 1
 #define __BIGGEST_ALIGNMENT__ 16
 #define __STDC_UTF_16__ 1
 #define __FLT64_MAX_10_EXP__ 308
@@ -160,7 +161,7 @@
 #define __WCHAR_WIDTH__ 32
 #define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
 #define __DEC128_EPSILON__ 1E-33DL
-#define BUILD_AS_TEST "/home/bob/Documents/calamares/src/modules/users"
+#define BUILD_AS_TEST "/home/bob/Git/calamares/src/modules/users"
 #define __FLT16_DECIMAL_DIG__ 5
 #define __SSE2_MATH__ 1
 #define __ATOMIC_HLE_RELEASE 131072
@@ -211,7 +212,7 @@
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
 #define __FLT_MANT_DIG__ 24
 #define __LDBL_DECIMAL_DIG__ 21
-#define __VERSION__ "12.1.0"
+#define __VERSION__ "12.1.1 20220730"
 #define __UINT64_C(c) c ## UL
 #define __cpp_unicode_characters 201411L
 #define _STDC_PREDEF_H 1
@@ -374,7 +375,7 @@
 #define __FLT64_MAX_EXP__ 1024
 #define __INT_LEAST32_TYPE__ int
 #define __SIZEOF_WCHAR_T__ 4
-#define __GNUC_PATCHLEVEL__ 0
+#define __GNUC_PATCHLEVEL__ 1
 #define __FLT128_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F128
 #define __FLT64_NORM_MAX__ 1.79769313486231570814527423731704357e+308F64
 #define __FLT128_HAS_QUIET_NAN__ 1
@@ -383,6 +384,7 @@
 #define __cpp_namespace_attributes 201411L
 #define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
 #define __STDCPP_THREADS__ 1
+#define HAVE_LIBPWQUALITY 1
 #define __GNUC_STDC_INLINE__ 1
 #define __FLT64_HAS_DENORM__ 1
 #define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32

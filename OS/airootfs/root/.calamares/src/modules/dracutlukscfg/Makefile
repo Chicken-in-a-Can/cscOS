@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Documents/calamares/build/CPackSourceConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Git/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles /home/bob/Documents/calamares/build/src/modules/dracutlukscfg//CMakeFiles/progress.marks
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles /home/bob/Git/calamares/build/src/modules/dracutlukscfg//CMakeFiles/progress.marks
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/clean
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/rule
 .PHONY : src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_job_dracutlukscfg: src/modules/dracutlukscfg/CMakeFiles/calamares_job_
 
 # fast build rule for target.
 calamares_job_dracutlukscfg/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build
 .PHONY : calamares_job_dracutlukscfg/fast
 
 # Convenience name for target.
 src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/rule
 .PHONY : src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ calamares_job_dracutlukscfg_autogen: src/modules/dracutlukscfg/CMakeFiles/calama
 
 # fast build rule for target.
 calamares_job_dracutlukscfg_autogen/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg_autogen.dir/build
 .PHONY : calamares_job_dracutlukscfg_autogen/fast
 
 DracutLuksCfgJob.o: DracutLuksCfgJob.cpp.o
@@ -224,7 +224,7 @@ DracutLuksCfgJob.o: DracutLuksCfgJob.cpp.o
 
 # target to build an object file
 DracutLuksCfgJob.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/DracutLuksCfgJob.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/DracutLuksCfgJob.cpp.o
 .PHONY : DracutLuksCfgJob.cpp.o
 
 DracutLuksCfgJob.i: DracutLuksCfgJob.cpp.i
@@ -232,7 +232,7 @@ DracutLuksCfgJob.i: DracutLuksCfgJob.cpp.i
 
 # target to preprocess a source file
 DracutLuksCfgJob.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/DracutLuksCfgJob.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/DracutLuksCfgJob.cpp.i
 .PHONY : DracutLuksCfgJob.cpp.i
 
 DracutLuksCfgJob.s: DracutLuksCfgJob.cpp.s
@@ -240,7 +240,7 @@ DracutLuksCfgJob.s: DracutLuksCfgJob.cpp.s
 
 # target to generate assembly for a file
 DracutLuksCfgJob.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/DracutLuksCfgJob.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/DracutLuksCfgJob.cpp.s
 .PHONY : DracutLuksCfgJob.cpp.s
 
 calamares_job_dracutlukscfg_autogen/mocs_compilation.o: calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.o
@@ -248,7 +248,7 @@ calamares_job_dracutlukscfg_autogen/mocs_compilation.o: calamares_job_dracutluks
 
 # target to build an object file
 calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.o
 
 calamares_job_dracutlukscfg_autogen/mocs_compilation.i: calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.i
@@ -256,7 +256,7 @@ calamares_job_dracutlukscfg_autogen/mocs_compilation.i: calamares_job_dracutluks
 
 # target to preprocess a source file
 calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.i
 
 calamares_job_dracutlukscfg_autogen/mocs_compilation.s: calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.s
@@ -264,7 +264,7 @@ calamares_job_dracutlukscfg_autogen/mocs_compilation.s: calamares_job_dracutluks
 
 # target to generate assembly for a file
 calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/build.make src/modules/dracutlukscfg/CMakeFiles/calamares_job_dracutlukscfg.dir/calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_job_dracutlukscfg_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -301,6 +301,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

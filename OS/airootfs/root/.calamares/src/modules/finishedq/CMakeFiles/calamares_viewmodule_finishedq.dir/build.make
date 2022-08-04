@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/depend.make
@@ -74,64 +74,64 @@ src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_fini
 src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp: ../src/modules/finishedq/finishedq.qml
 src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp: ../src/modules/finishedq/seedling.svg
 src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp: /usr/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for finishedq.qrc"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/cmake -E cmake_autorcc /home/bob/Documents/calamares/build/src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/AutoRcc_finishedq_EWIEGA46WW_Info.json RelWithDebInfo
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for finishedq.qrc"
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /usr/bin/cmake -E cmake_autorcc /home/bob/Git/calamares/build/src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq_autogen.dir/AutoRcc_finishedq_EWIEGA46WW_Info.json RelWithDebInfo
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/flags.make
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o: src/modules/finishedq/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.i
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/mocs_compilation.cpp.s
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/flags.make
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o: ../src/modules/finishedq/FinishedQmlViewStep.cpp
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o -c /home/bob/Documents/calamares/src/modules/finishedq/FinishedQmlViewStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.o -c /home/bob/Git/calamares/src/modules/finishedq/FinishedQmlViewStep.cpp
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/finishedq/FinishedQmlViewStep.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/finishedq/FinishedQmlViewStep.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.i
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/finishedq/FinishedQmlViewStep.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/finishedq/FinishedQmlViewStep.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/FinishedQmlViewStep.cpp.s
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/flags.make
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o: ../src/modules/finished/Config.cpp
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o -c /home/bob/Documents/calamares/src/modules/finished/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.o -c /home/bob/Git/calamares/src/modules/finished/Config.cpp
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/finished/Config.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/finished/Config.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.i
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/finished/Config.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/finished/Config.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/__/finished/Config.cpp.s
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/flags.make
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o: src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o -c /home/bob/Documents/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o -MF CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o.d -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.o -c /home/bob/Git/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp > CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.i
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp -o CMakeFiles/calamares_viewmodule_finishedq.dir/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp.s
 
 # Object files for target calamares_viewmodule_finishedq
 calamares_viewmodule_finishedq_OBJECTS = \
@@ -163,18 +163,18 @@ src/modules/finishedq/libcalamares_viewmodule_finishedq.so: /usr/lib/libQt5Qml.s
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: /usr/lib/libQt5Network.so.5.15.5
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: /usr/lib/libQt5Core.so.5.15.5
 src/modules/finishedq/libcalamares_viewmodule_finishedq.so: src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libcalamares_viewmodule_finishedq.so"
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_finishedq.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libcalamares_viewmodule_finishedq.so"
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_finishedq.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build: src/modules/finishedq/libcalamares_viewmodule_finishedq.so
 .PHONY : src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/build
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/finishedq && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_finishedq.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/finishedq && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_finishedq.dir/cmake_clean.cmake
 .PHONY : src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/clean
 
 src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/depend: src/modules/finishedq/calamares_viewmodule_finishedq_autogen/EWIEGA46WW/qrc_finishedq.cpp
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/finishedq /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/finishedq /home/bob/Documents/calamares/build/src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/finishedq /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/finishedq /home/bob/Git/calamares/build/src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/finishedq/CMakeFiles/calamares_viewmodule_finishedq.dir/depend
 

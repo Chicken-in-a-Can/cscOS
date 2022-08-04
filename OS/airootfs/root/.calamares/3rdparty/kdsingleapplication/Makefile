@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Documents/calamares/build/CPackSourceConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Git/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles /home/bob/Documents/calamares/build/3rdparty/kdsingleapplication//CMakeFiles/progress.marks
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles /home/bob/Git/calamares/build/3rdparty/kdsingleapplication//CMakeFiles/progress.marks
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/clean
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/rule
 .PHONY : 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ kdsingleapplication: 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication
 
 # fast build rule for target.
 kdsingleapplication/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build
 .PHONY : kdsingleapplication/fast
 
 # Convenience name for target.
 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/rule
 .PHONY : 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ kdsingleapplication_autogen: 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapp
 
 # fast build rule for target.
 kdsingleapplication_autogen/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication_autogen.dir/build
 .PHONY : kdsingleapplication_autogen/fast
 
 kdsingleapplication.o: kdsingleapplication.cpp.o
@@ -224,7 +224,7 @@ kdsingleapplication.o: kdsingleapplication.cpp.o
 
 # target to build an object file
 kdsingleapplication.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication.cpp.o
 .PHONY : kdsingleapplication.cpp.o
 
 kdsingleapplication.i: kdsingleapplication.cpp.i
@@ -232,7 +232,7 @@ kdsingleapplication.i: kdsingleapplication.cpp.i
 
 # target to preprocess a source file
 kdsingleapplication.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication.cpp.i
 .PHONY : kdsingleapplication.cpp.i
 
 kdsingleapplication.s: kdsingleapplication.cpp.s
@@ -240,7 +240,7 @@ kdsingleapplication.s: kdsingleapplication.cpp.s
 
 # target to generate assembly for a file
 kdsingleapplication.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication.cpp.s
 .PHONY : kdsingleapplication.cpp.s
 
 kdsingleapplication_autogen/mocs_compilation.o: kdsingleapplication_autogen/mocs_compilation.cpp.o
@@ -248,7 +248,7 @@ kdsingleapplication_autogen/mocs_compilation.o: kdsingleapplication_autogen/mocs
 
 # target to build an object file
 kdsingleapplication_autogen/mocs_compilation.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_autogen/mocs_compilation.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_autogen/mocs_compilation.cpp.o
 .PHONY : kdsingleapplication_autogen/mocs_compilation.cpp.o
 
 kdsingleapplication_autogen/mocs_compilation.i: kdsingleapplication_autogen/mocs_compilation.cpp.i
@@ -256,7 +256,7 @@ kdsingleapplication_autogen/mocs_compilation.i: kdsingleapplication_autogen/mocs
 
 # target to preprocess a source file
 kdsingleapplication_autogen/mocs_compilation.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_autogen/mocs_compilation.cpp.i
 .PHONY : kdsingleapplication_autogen/mocs_compilation.cpp.i
 
 kdsingleapplication_autogen/mocs_compilation.s: kdsingleapplication_autogen/mocs_compilation.cpp.s
@@ -264,7 +264,7 @@ kdsingleapplication_autogen/mocs_compilation.s: kdsingleapplication_autogen/mocs
 
 # target to generate assembly for a file
 kdsingleapplication_autogen/mocs_compilation.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_autogen/mocs_compilation.cpp.s
 .PHONY : kdsingleapplication_autogen/mocs_compilation.cpp.s
 
 kdsingleapplication_localsocket.o: kdsingleapplication_localsocket.cpp.o
@@ -272,7 +272,7 @@ kdsingleapplication_localsocket.o: kdsingleapplication_localsocket.cpp.o
 
 # target to build an object file
 kdsingleapplication_localsocket.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_localsocket.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_localsocket.cpp.o
 .PHONY : kdsingleapplication_localsocket.cpp.o
 
 kdsingleapplication_localsocket.i: kdsingleapplication_localsocket.cpp.i
@@ -280,7 +280,7 @@ kdsingleapplication_localsocket.i: kdsingleapplication_localsocket.cpp.i
 
 # target to preprocess a source file
 kdsingleapplication_localsocket.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_localsocket.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_localsocket.cpp.i
 .PHONY : kdsingleapplication_localsocket.cpp.i
 
 kdsingleapplication_localsocket.s: kdsingleapplication_localsocket.cpp.s
@@ -288,7 +288,7 @@ kdsingleapplication_localsocket.s: kdsingleapplication_localsocket.cpp.s
 
 # target to generate assembly for a file
 kdsingleapplication_localsocket.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_localsocket.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/build.make 3rdparty/kdsingleapplication/CMakeFiles/kdsingleapplication.dir/kdsingleapplication_localsocket.cpp.s
 .PHONY : kdsingleapplication_localsocket.cpp.s
 
 # Help Target
@@ -328,6 +328,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

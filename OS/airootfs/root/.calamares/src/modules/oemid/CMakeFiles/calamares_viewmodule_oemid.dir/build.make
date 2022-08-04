@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/depend.make
@@ -72,44 +72,44 @@ include src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o: src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.i
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/oemid/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/calamares_viewmodule_oemid_autogen/mocs_compilation.cpp.s
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o: ../src/modules/oemid/IDJob.cpp
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -c /home/bob/Documents/calamares/src/modules/oemid/IDJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.o -c /home/bob/Git/calamares/src/modules/oemid/IDJob.cpp
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/oemid/IDJob.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/oemid/IDJob.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.i
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/oemid/IDJob.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/oemid/IDJob.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/IDJob.cpp.s
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/flags.make
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: ../src/modules/oemid/OEMViewStep.cpp
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -c /home/bob/Documents/calamares/src/modules/oemid/OEMViewStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -MF CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o.d -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.o -c /home/bob/Git/calamares/src/modules/oemid/OEMViewStep.cpp
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/oemid/OEMViewStep.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/oemid/OEMViewStep.cpp > CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.i
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/oemid/OEMViewStep.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/oemid && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/oemid/OEMViewStep.cpp -o CMakeFiles/calamares_viewmodule_oemid.dir/OEMViewStep.cpp.s
 
 # Object files for target calamares_viewmodule_oemid
 calamares_viewmodule_oemid_OBJECTS = \
@@ -138,18 +138,18 @@ src/modules/oemid/libcalamares_viewmodule_oemid.so: /usr/lib/libQt5Qml.so.5.15.5
 src/modules/oemid/libcalamares_viewmodule_oemid.so: /usr/lib/libQt5Network.so.5.15.5
 src/modules/oemid/libcalamares_viewmodule_oemid.so: /usr/lib/libQt5Core.so.5.15.5
 src/modules/oemid/libcalamares_viewmodule_oemid.so: src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcalamares_viewmodule_oemid.so"
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_oemid.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcalamares_viewmodule_oemid.so"
+	cd /home/bob/Git/calamares/build/src/modules/oemid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calamares_viewmodule_oemid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/build: src/modules/oemid/libcalamares_viewmodule_oemid.so
 .PHONY : src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/build
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/oemid && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_oemid.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/oemid && $(CMAKE_COMMAND) -P CMakeFiles/calamares_viewmodule_oemid.dir/cmake_clean.cmake
 .PHONY : src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/clean
 
 src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/oemid /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/oemid /home/bob/Documents/calamares/build/src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/oemid /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/oemid /home/bob/Git/calamares/build/src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/oemid/CMakeFiles/calamares_viewmodule_oemid.dir/depend
 

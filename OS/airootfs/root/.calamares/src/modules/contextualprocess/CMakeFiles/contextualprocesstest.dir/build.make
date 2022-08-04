@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 # Include any dependencies generated for this target.
 include src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/depend.make
@@ -72,44 +72,44 @@ include src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/flags
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o: src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/flags.make
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o: src/modules/contextualprocess/contextualprocesstest_autogen/mocs_compilation.cpp
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o: src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o -c /home/bob/Documents/calamares/build/src/modules/contextualprocess/contextualprocesstest_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o -MF CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.o -c /home/bob/Git/calamares/build/src/modules/contextualprocess/contextualprocesstest_autogen/mocs_compilation.cpp
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/build/src/modules/contextualprocess/contextualprocesstest_autogen/mocs_compilation.cpp > CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/build/src/modules/contextualprocess/contextualprocesstest_autogen/mocs_compilation.cpp > CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.i
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/build/src/modules/contextualprocess/contextualprocesstest_autogen/mocs_compilation.cpp -o CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/build/src/modules/contextualprocess/contextualprocesstest_autogen/mocs_compilation.cpp -o CMakeFiles/contextualprocesstest.dir/contextualprocesstest_autogen/mocs_compilation.cpp.s
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o: src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/flags.make
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o: ../src/modules/contextualprocess/Tests.cpp
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o: src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o -MF CMakeFiles/contextualprocesstest.dir/Tests.cpp.o.d -o CMakeFiles/contextualprocesstest.dir/Tests.cpp.o -c /home/bob/Documents/calamares/src/modules/contextualprocess/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.o -MF CMakeFiles/contextualprocesstest.dir/Tests.cpp.o.d -o CMakeFiles/contextualprocesstest.dir/Tests.cpp.o -c /home/bob/Git/calamares/src/modules/contextualprocess/Tests.cpp
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/contextualprocesstest.dir/Tests.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/contextualprocess/Tests.cpp > CMakeFiles/contextualprocesstest.dir/Tests.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/contextualprocess/Tests.cpp > CMakeFiles/contextualprocesstest.dir/Tests.cpp.i
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/contextualprocesstest.dir/Tests.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/contextualprocess/Tests.cpp -o CMakeFiles/contextualprocesstest.dir/Tests.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/contextualprocess/Tests.cpp -o CMakeFiles/contextualprocesstest.dir/Tests.cpp.s
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o: src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/flags.make
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o: ../src/modules/contextualprocess/ContextualProcessJob.cpp
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o: src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o -MF CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o.d -o CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o -c /home/bob/Documents/calamares/src/modules/contextualprocess/ContextualProcessJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o"
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o -MF CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o.d -o CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.o -c /home/bob/Git/calamares/src/modules/contextualprocess/ContextualProcessJob.cpp
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.i"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Documents/calamares/src/modules/contextualprocess/ContextualProcessJob.cpp > CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.i
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bob/Git/calamares/src/modules/contextualprocess/ContextualProcessJob.cpp > CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.i
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.s"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Documents/calamares/src/modules/contextualprocess/ContextualProcessJob.cpp -o CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.s
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bob/Git/calamares/src/modules/contextualprocess/ContextualProcessJob.cpp -o CMakeFiles/contextualprocesstest.dir/ContextualProcessJob.cpp.s
 
 # Object files for target contextualprocesstest
 contextualprocesstest_OBJECTS = \
@@ -130,18 +130,18 @@ contextualprocesstest: /usr/lib/libQt5Test.so.5.15.5
 contextualprocesstest: /usr/lib/libKF5CoreAddons.so.5.96.0
 contextualprocesstest: /usr/lib/libQt5Core.so.5.15.5
 contextualprocesstest: src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Documents/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../contextualprocesstest"
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/contextualprocesstest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bob/Git/calamares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../contextualprocesstest"
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/contextualprocesstest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/build: contextualprocesstest
 .PHONY : src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/build
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/clean:
-	cd /home/bob/Documents/calamares/build/src/modules/contextualprocess && $(CMAKE_COMMAND) -P CMakeFiles/contextualprocesstest.dir/cmake_clean.cmake
+	cd /home/bob/Git/calamares/build/src/modules/contextualprocess && $(CMAKE_COMMAND) -P CMakeFiles/contextualprocesstest.dir/cmake_clean.cmake
 .PHONY : src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/clean
 
 src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Documents/calamares /home/bob/Documents/calamares/src/modules/contextualprocess /home/bob/Documents/calamares/build /home/bob/Documents/calamares/build/src/modules/contextualprocess /home/bob/Documents/calamares/build/src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bob/Git/calamares /home/bob/Git/calamares/src/modules/contextualprocess /home/bob/Git/calamares/build /home/bob/Git/calamares/build/src/modules/contextualprocess /home/bob/Git/calamares/build/src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/modules/contextualprocess/CMakeFiles/contextualprocesstest.dir/depend
 

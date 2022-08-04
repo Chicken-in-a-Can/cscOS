@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bob/Documents/calamares
+CMAKE_SOURCE_DIR = /home/bob/Git/calamares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
+CMAKE_BINARY_DIR = /home/bob/Git/calamares/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/bob/Documents/calamares/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/bob/Documents/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Documents/calamares/build/CPackSourceConfig.cmake
+	cd /home/bob/Git/calamares/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/bob/Git/calamares/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,14 +162,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles /home/bob/Documents/calamares/build/src/modules/tracking//CMakeFiles/progress.marks
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Documents/calamares/build/CMakeFiles 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles /home/bob/Git/calamares/build/src/modules/tracking//CMakeFiles/progress.marks
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bob/Git/calamares/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/clean
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/clean
 .PHONY : clean
 
 # The main clean target
@@ -178,22 +178,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/preinstall
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/rule
 .PHONY : src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ calamares_viewmodule_tracking: src/modules/tracking/CMakeFiles/calamares_viewmod
 
 # fast build rule for target.
 calamares_viewmodule_tracking/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build
 .PHONY : calamares_viewmodule_tracking/fast
 
 # Convenience name for target.
 src/modules/tracking/CMakeFiles/trackingtest.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/trackingtest.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/trackingtest.dir/rule
 .PHONY : src/modules/tracking/CMakeFiles/trackingtest.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ trackingtest: src/modules/tracking/CMakeFiles/trackingtest.dir/rule
 
 # fast build rule for target.
 trackingtest/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/build
 .PHONY : trackingtest/fast
 
 # Convenience name for target.
 src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/rule
 .PHONY : src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ calamares_viewmodule_tracking_autogen: src/modules/tracking/CMakeFiles/calamares
 
 # fast build rule for target.
 calamares_viewmodule_tracking_autogen/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking_autogen.dir/build
 .PHONY : calamares_viewmodule_tracking_autogen/fast
 
 # Convenience name for target.
 src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/rule:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/rule
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/rule
 .PHONY : src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/rule
 
 # Convenience name for target.
@@ -244,7 +244,7 @@ trackingtest_autogen: src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/r
 
 # fast build rule for target.
 trackingtest_autogen/fast:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/build.make src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/build
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/build.make src/modules/tracking/CMakeFiles/trackingtest_autogen.dir/build
 .PHONY : trackingtest_autogen/fast
 
 Config.o: Config.cpp.o
@@ -252,8 +252,8 @@ Config.o: Config.cpp.o
 
 # target to build an object file
 Config.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/Config.cpp.o
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Config.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/Config.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Config.cpp.o
 .PHONY : Config.cpp.o
 
 Config.i: Config.cpp.i
@@ -261,8 +261,8 @@ Config.i: Config.cpp.i
 
 # target to preprocess a source file
 Config.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/Config.cpp.i
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Config.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/Config.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Config.cpp.i
 .PHONY : Config.cpp.i
 
 Config.s: Config.cpp.s
@@ -270,8 +270,8 @@ Config.s: Config.cpp.s
 
 # target to generate assembly for a file
 Config.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/Config.cpp.s
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Config.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/Config.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
 Tests.o: Tests.cpp.o
@@ -279,7 +279,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Tests.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -287,7 +287,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Tests.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -295,7 +295,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Tests.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 TrackingJobs.o: TrackingJobs.cpp.o
@@ -303,7 +303,7 @@ TrackingJobs.o: TrackingJobs.cpp.o
 
 # target to build an object file
 TrackingJobs.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingJobs.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingJobs.cpp.o
 .PHONY : TrackingJobs.cpp.o
 
 TrackingJobs.i: TrackingJobs.cpp.i
@@ -311,7 +311,7 @@ TrackingJobs.i: TrackingJobs.cpp.i
 
 # target to preprocess a source file
 TrackingJobs.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingJobs.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingJobs.cpp.i
 .PHONY : TrackingJobs.cpp.i
 
 TrackingJobs.s: TrackingJobs.cpp.s
@@ -319,7 +319,7 @@ TrackingJobs.s: TrackingJobs.cpp.s
 
 # target to generate assembly for a file
 TrackingJobs.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingJobs.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingJobs.cpp.s
 .PHONY : TrackingJobs.cpp.s
 
 TrackingPage.o: TrackingPage.cpp.o
@@ -327,7 +327,7 @@ TrackingPage.o: TrackingPage.cpp.o
 
 # target to build an object file
 TrackingPage.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingPage.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingPage.cpp.o
 .PHONY : TrackingPage.cpp.o
 
 TrackingPage.i: TrackingPage.cpp.i
@@ -335,7 +335,7 @@ TrackingPage.i: TrackingPage.cpp.i
 
 # target to preprocess a source file
 TrackingPage.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingPage.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingPage.cpp.i
 .PHONY : TrackingPage.cpp.i
 
 TrackingPage.s: TrackingPage.cpp.s
@@ -343,7 +343,7 @@ TrackingPage.s: TrackingPage.cpp.s
 
 # target to generate assembly for a file
 TrackingPage.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingPage.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingPage.cpp.s
 .PHONY : TrackingPage.cpp.s
 
 TrackingViewStep.o: TrackingViewStep.cpp.o
@@ -351,7 +351,7 @@ TrackingViewStep.o: TrackingViewStep.cpp.o
 
 # target to build an object file
 TrackingViewStep.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingViewStep.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingViewStep.cpp.o
 .PHONY : TrackingViewStep.cpp.o
 
 TrackingViewStep.i: TrackingViewStep.cpp.i
@@ -359,7 +359,7 @@ TrackingViewStep.i: TrackingViewStep.cpp.i
 
 # target to preprocess a source file
 TrackingViewStep.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingViewStep.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingViewStep.cpp.i
 .PHONY : TrackingViewStep.cpp.i
 
 TrackingViewStep.s: TrackingViewStep.cpp.s
@@ -367,7 +367,7 @@ TrackingViewStep.s: TrackingViewStep.cpp.s
 
 # target to generate assembly for a file
 TrackingViewStep.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingViewStep.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/TrackingViewStep.cpp.s
 .PHONY : TrackingViewStep.cpp.s
 
 calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.o: calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.o
@@ -375,7 +375,7 @@ calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.o: calama
 
 # target to build an object file
 calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.o
 .PHONY : calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.o
 
 calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.i: calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.i
@@ -383,7 +383,7 @@ calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.i: calama
 
 # target to preprocess a source file
 calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.i
 .PHONY : calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.i
 
 calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.s: calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.s
@@ -391,7 +391,7 @@ calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.s: calama
 
 # target to generate assembly for a file
 calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.s
 .PHONY : calamares_viewmodule_tracking_autogen/EWIEGA46WW/qrc_page_trackingstep.cpp.s
 
 calamares_viewmodule_tracking_autogen/mocs_compilation.o: calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.o
@@ -399,7 +399,7 @@ calamares_viewmodule_tracking_autogen/mocs_compilation.o: calamares_viewmodule_t
 
 # target to build an object file
 calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.o
 .PHONY : calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.o
 
 calamares_viewmodule_tracking_autogen/mocs_compilation.i: calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.i
@@ -407,7 +407,7 @@ calamares_viewmodule_tracking_autogen/mocs_compilation.i: calamares_viewmodule_t
 
 # target to preprocess a source file
 calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.i
 .PHONY : calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.i
 
 calamares_viewmodule_tracking_autogen/mocs_compilation.s: calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.s
@@ -415,7 +415,7 @@ calamares_viewmodule_tracking_autogen/mocs_compilation.s: calamares_viewmodule_t
 
 # target to generate assembly for a file
 calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/build.make src/modules/tracking/CMakeFiles/calamares_viewmodule_tracking.dir/calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.s
 .PHONY : calamares_viewmodule_tracking_autogen/mocs_compilation.cpp.s
 
 trackingtest_autogen/mocs_compilation.o: trackingtest_autogen/mocs_compilation.cpp.o
@@ -423,7 +423,7 @@ trackingtest_autogen/mocs_compilation.o: trackingtest_autogen/mocs_compilation.c
 
 # target to build an object file
 trackingtest_autogen/mocs_compilation.cpp.o:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/trackingtest_autogen/mocs_compilation.cpp.o
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/trackingtest_autogen/mocs_compilation.cpp.o
 .PHONY : trackingtest_autogen/mocs_compilation.cpp.o
 
 trackingtest_autogen/mocs_compilation.i: trackingtest_autogen/mocs_compilation.cpp.i
@@ -431,7 +431,7 @@ trackingtest_autogen/mocs_compilation.i: trackingtest_autogen/mocs_compilation.c
 
 # target to preprocess a source file
 trackingtest_autogen/mocs_compilation.cpp.i:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/trackingtest_autogen/mocs_compilation.cpp.i
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/trackingtest_autogen/mocs_compilation.cpp.i
 .PHONY : trackingtest_autogen/mocs_compilation.cpp.i
 
 trackingtest_autogen/mocs_compilation.s: trackingtest_autogen/mocs_compilation.cpp.s
@@ -439,7 +439,7 @@ trackingtest_autogen/mocs_compilation.s: trackingtest_autogen/mocs_compilation.c
 
 # target to generate assembly for a file
 trackingtest_autogen/mocs_compilation.cpp.s:
-	cd /home/bob/Documents/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/trackingtest_autogen/mocs_compilation.cpp.s
+	cd /home/bob/Git/calamares/build && $(MAKE) $(MAKESILENT) -f src/modules/tracking/CMakeFiles/trackingtest.dir/build.make src/modules/tracking/CMakeFiles/trackingtest.dir/trackingtest_autogen/mocs_compilation.cpp.s
 .PHONY : trackingtest_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -496,6 +496,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bob/Documents/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bob/Git/calamares/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

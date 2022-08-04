@@ -43,6 +43,15 @@ unset(_expectedTargets)
 
 # Compute the installation prefix relative to this file.
 get_filename_component(_IMPORT_PREFIX "${CMAKE_CURRENT_LIST_FILE}" PATH)
+# Use original install prefix when loaded through a
+# cross-prefix symbolic link such as /lib -> /usr/lib.
+get_filename_component(_realCurr "${_IMPORT_PREFIX}" REALPATH)
+get_filename_component(_realOrig "/usr/lib/cmake/Calamares" REALPATH)
+if(_realCurr STREQUAL _realOrig)
+  set(_IMPORT_PREFIX "/usr/lib/cmake/Calamares")
+endif()
+unset(_realOrig)
+unset(_realCurr)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
@@ -54,7 +63,7 @@ endif()
 add_library(Calamares::calamares SHARED IMPORTED)
 
 set_target_properties(Calamares::calamares PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/usr/local/include/libcalamares"
+  INTERFACE_INCLUDE_DIRECTORIES "/usr/include/libcalamares"
   INTERFACE_LINK_LIBRARIES "yamlcpp::yamlcpp;Qt5::Core;KF5::CoreAddons"
 )
 

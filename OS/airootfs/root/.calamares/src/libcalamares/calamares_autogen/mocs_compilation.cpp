@@ -5,6 +5,8 @@
 #include "EWIEGA46WW/moc_JobExample.cpp"
 #include "EWIEGA46WW/moc_JobQueue.cpp"
 #include "EWIEGA46WW/moc_ProcessJob.cpp"
+#include "EWIEGA46WW/moc_PythonHelper.cpp"
+#include "EWIEGA46WW/moc_PythonJob.cpp"
 #include "EWIEGA46WW/moc_Settings.cpp"
 #include "3LBKYZJTZU/moc_TimeZone.cpp"
 #include "3LBKYZJTZU/moc_Translation.cpp"

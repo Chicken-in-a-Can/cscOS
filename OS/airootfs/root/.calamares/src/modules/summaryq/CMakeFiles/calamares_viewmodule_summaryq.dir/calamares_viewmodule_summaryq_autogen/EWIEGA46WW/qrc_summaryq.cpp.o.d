@@ -1,3 +1,3 @@
 src/modules/summaryq/CMakeFiles/calamares_viewmodule_summaryq.dir/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp.o: \
- /home/bob/Documents/calamares/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp \
+ /home/bob/Git/calamares/build/src/modules/summaryq/calamares_viewmodule_summaryq_autogen/EWIEGA46WW/qrc_summaryq.cpp \
  /usr/include/stdc-predef.h

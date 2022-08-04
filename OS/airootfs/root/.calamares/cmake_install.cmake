@@ -1,8 +1,8 @@
-# Install script for directory: /home/bob/Documents/calamares
+# Install script for directory: /home/bob/Git/calamares
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,29 +39,29 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/sbin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bob/Documents/calamares/build/lang/cmake_install.cmake")
+  include("/home/bob/Git/calamares/build/lang/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bob/Documents/calamares/build/3rdparty/kdsingleapplication/cmake_install.cmake")
+  include("/home/bob/Git/calamares/build/3rdparty/kdsingleapplication/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bob/Documents/calamares/build/src/cmake_install.cmake")
+  include("/home/bob/Git/calamares/build/src/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets.cmake"
-         "/home/bob/Documents/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
+         "/home/bob/Git/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares/CalamaresTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -70,26 +70,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/bob/Documents/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/bob/Git/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/bob/Documents/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES "/home/bob/Git/calamares/build/CMakeFiles/Export/lib/cmake/Calamares/CalamaresTargets-relwithdebinfo.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Calamares" TYPE FILE FILES
-    "/home/bob/Documents/calamares/build/CalamaresConfig.cmake"
-    "/home/bob/Documents/calamares/build/CalamaresConfigVersion.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresAddBrandingSubdirectory.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresAddLibrary.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresAddModuleSubdirectory.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresAddPlugin.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresAddTest.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresAddTranslations.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresAutomoc.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CalamaresCheckModuleSelection.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/CMakeColors.cmake"
-    "/home/bob/Documents/calamares/CMakeModules/FindYAMLCPP.cmake"
+    "/home/bob/Git/calamares/build/CalamaresConfig.cmake"
+    "/home/bob/Git/calamares/build/CalamaresConfigVersion.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresAddBrandingSubdirectory.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresAddLibrary.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresAddModuleSubdirectory.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresAddPlugin.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresAddTest.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresAddTranslations.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresAutomoc.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CalamaresCheckModuleSelection.cmake"
+    "/home/bob/Git/calamares/CMakeModules/CMakeColors.cmake"
+    "/home/bob/Git/calamares/CMakeModules/FindYAMLCPP.cmake"
     )
 endif()
 
@@ -102,15 +102,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_CO
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/share/polkit-1/actions" TYPE FILE FILES "/home/bob/Documents/calamares/com.github.calamares.calamares.policy")
+  file(INSTALL DESTINATION "/usr/share/polkit-1/actions" TYPE FILE FILES "/home/bob/Git/calamares/com.github.calamares.calamares.policy")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/bob/Documents/calamares/calamares.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/bob/Git/calamares/calamares.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xCALAMARESx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/bob/Documents/calamares/man/calamares.8")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE FILES "/home/bob/Git/calamares/man/calamares.8")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -121,5 +121,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bob/Documents/calamares/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bob/Git/calamares/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

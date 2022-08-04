@@ -8,7 +8,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 # Import target "Calamares::calamares" for configuration "RelWithDebInfo"
 set_property(TARGET Calamares::calamares APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(Calamares::calamares PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELWITHDEBINFO "Qt5::DBus;Qt5::Network;Qt5::Xml"
+  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELWITHDEBINFO "Qt5::DBus;Python::Python;Boost::python;Qt5::Network;Qt5::Xml"
   IMPORTED_LOCATION_RELWITHDEBINFO "${_IMPORT_PREFIX}/lib/libcalamares.so.3.3.0"
   IMPORTED_SONAME_RELWITHDEBINFO "libcalamares.so.3.3.0"
   )
