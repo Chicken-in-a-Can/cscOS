@@ -22,6 +22,4 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
-  ["/root/Desktop/Installer.desktop"]="0:0:755"
-  ["/root/.calamares/calamares"]="0:0:755"
 )
