@@ -1,3 +1,19 @@
-#!/bin/bash
-mkdir work
-sudo mkarchiso -w work -v -o ./ OS
+#!/bin/python
+
+import os
+import sys
+
+# Variable initialization
+aur_packages = ["yay", "spotify"]
+uname = os.getlogin()
+
+os.mkdir("/home/" + uname + "/cust_repo")
+os.chdir("/home/" + uname + "/cust_repo")
+for i in range(len(aur_packages)):
+    os.system("git clone https://aur.archlinux.org/" + aur_packages[i] + ".git")
+    os.chdir("./" + aur_packages[i])
+    os.system("makepkg")
+    os.chdir("..")
+
+os.system("mkdir work")
+os.system("sudo mkarchiso -w work -v -o ./ OS")
