@@ -28,6 +28,3 @@ os.system(repo_command)
 os.chdir(currentdir)
 os.system("mkdir work")
 os.system("sudo mkarchiso -w work -v -o ./ OS")
-
-# Clean up system
-os.system("rm -rf /home/" + uname + "/cust_repo")
