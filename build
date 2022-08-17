@@ -8,7 +8,7 @@ import shutil
 # Variable initialization
 aur_packages = ["yay", "spotify"]
 uname = os.getlogin()
-repo-command = "repo-add custom.dp.tar.gz"
+repo_command = "repo-add custom.dp.tar.gz"
 
 # Create custom repository
 os.mkdir("/home/" + uname + "/cust_repo")
@@ -18,11 +18,11 @@ for i in range(len(aur_packages)):
     os.chdir("./" + aur_packages[i])
     os.system("makepkg")
     os.chdir("..")
-    shutil.move("./" + aur_packages[i] + "/" + aur_packages[i] + "*.zst ./")
+    os.system("mv " + aur_packages[i] + "*.zst ./")
     os.rmdir(aur_packages[i])
-    repo-command += (" " + aur_packages[i] + "-*.zst")
+    repo_command += (" " + aur_packages[i] + "-*.zst")
 
-os.system(repo-command)
+os.system(repo_command)
 
 # Build image
 os.system("mkdir work")
