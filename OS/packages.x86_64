@@ -51,6 +51,8 @@ irssi
 iw
 iwd
 jfsutils
+jdk-openjdk
+jre-openjdk
 kitty-terminfo
 kde-applications
 kf5
@@ -105,6 +107,7 @@ ppp
 pptpclient
 pv
 python
+python-pip
 qemu-guest-agent
 refind
 reflector
