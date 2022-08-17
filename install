@@ -1,0 +1,16 @@
+#!/bin/bash
+read -p "What device do you want to install cscOS on: " device
+
+sudo dd if=./cscOS*.iso of=/dev/$device
+
+sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | sudo fdisk /dev/$device
+  n # new partition
+  p # primary partition
+  3 # partition number 3
+    # default - start at beginning of disk 
+    # default - start at beginning of disk 
+  w # write partition
+EOF
+
+device+="3"
+sudo mkfs.ext4 /dev/$device
