@@ -8,7 +8,7 @@ import shutil
 # Variable initialization
 aur_packages = ["yay"]
 uname = os.getlogin()
-repo_command = "repo-add custom.dp.tar.gz"
+repo_command = "repo-add custom.db.tar.gz"
 
 # Create custom repository
 os.mkdir("/home/" + uname + "/cust_repo")
