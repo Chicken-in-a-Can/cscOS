@@ -9,6 +9,7 @@ import shutil
 aur_packages = ["yay"]
 uname = os.getlogin()
 repo_command = "repo-add custom.db.tar.gz"
+currentdir = os.getcwd()
 
 # Create custom repository
 os.mkdir("/home/" + uname + "/cust_repo")
@@ -25,6 +26,7 @@ for i in range(len(aur_packages)):
 os.system(repo_command)
 
 # Build image
+os.chdir(currentdir)
 os.system("mkdir work")
 os.system("sudo mkarchiso -w work -v -o ./ OS")
 
