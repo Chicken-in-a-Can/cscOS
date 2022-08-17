@@ -20,7 +20,6 @@ for i in range(len(aur_packages)):
     os.system("makepkg")
     os.chdir("..")
     os.system("mv ./" + aur_packages[i] + "/" + aur_packages[i] + "*.zst ./")
-    os.system("rm -rf ./" + aur_packages[i])
     repo_command += (" " + aur_packages[i] + "-*.zst")
 
 os.system(repo_command)
