@@ -26,5 +26,6 @@ os.system(repo_command)
 
 # Build image
 os.chdir(currentdir)
+os.system("echo \"Server = file:///home/ " + uname + "/cust_repo/\" >> ./OS/pacman.conf")
 os.system("mkdir work")
 os.system("sudo mkarchiso -w work -v -o ./ OS")
