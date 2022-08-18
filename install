@@ -1,7 +1,8 @@
 #!/bin/bash
 read -p "What device do you want to install cscOS on: " device
 
-sudo dd if=./cscOS*.iso of=/dev/$device
+img=$(ls | grep "cscOS-")
+sudo dd if=$img of=/dev/$device
 
 sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | sudo fdisk /dev/$device
   n # new partition
