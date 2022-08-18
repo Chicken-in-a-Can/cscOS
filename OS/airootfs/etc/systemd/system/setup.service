@@ -1,8 +1,0 @@
-[Unit]
-Description=Run setup python script
-
-[Service]
-ExecStart=/bin/python /root/.setup
-
-[Install]
-WantedBy=multi-user.target
