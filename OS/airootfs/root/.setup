@@ -2,10 +2,11 @@
 
 import os
 
-os.system("mkdir /root/persistent")
-longcmd = os.popen("df -h /run/archiso/bootmnt | grep \"/dev\"").read
-longarr = longcmd.split(" ")
-partition = longarr[0]
-drive = partition[:-1]
-newpartition = drive + "3"
-os.system("mount " + newpartition + " /root/persistent")
+if not os.path.exists("/root/persistent"):
+  os.system("mkdir /root/persistent")
+  longcmd = os.popen("df -h /run/archiso/bootmnt | grep \"/dev\"").read()
+  longarr = longcmd.split(" ")
+  partition = longarr[0]
+  drive = partition[:-1]
+  newpartition = drive + "3"
+  os.system("mount " + newpartition + " /root/persistent")
