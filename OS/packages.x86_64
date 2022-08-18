@@ -68,6 +68,7 @@ linux-firmware
 linux-firmware-marvell
 livecd-sounds
 lsscsi
+lua
 lvm2
 lynx
 make
@@ -90,6 +91,8 @@ networkmanager
 nfs-utils
 nilfs-utils
 nmap
+nodejs
+npm
 ntfs-3g
 nvme-cli
 open-iscsi
