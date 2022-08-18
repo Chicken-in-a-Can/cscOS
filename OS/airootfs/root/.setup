@@ -15,4 +15,4 @@ if not os.path.exists("/root/persistent"):
   os.system("rm -rf /root/.config/nvim")
   os.system("cp -r /root/.dotfiles/neofetch /root/.config")
   os.system("mkdir /root/.config/nvim")
-  os.system("cp /root/.config/init.vim /root/.config/nvim")
+  os.system("cp /root/.dotfiles/init.vim /root/.config/nvim")
