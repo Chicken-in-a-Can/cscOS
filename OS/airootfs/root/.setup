@@ -11,12 +11,5 @@ if not os.path.exists("/root/persistent"):
   newpartition = drive + "3"
   os.system("mount " + newpartition + " /root/persistent")
 
-  os.system("rm -rf /root/.config/nvim")
   os.system("rm -rf /root/.config/neofetch")
-  os.system("cp -r /root/.dotfiles/nvim /root/.config")
   os.system("cp -r /root/.dotfiles/neofetch /root/.config")
-  os.system("mkdir -p /root/.local")
-  os.system("mkdir -p /root/.local/share")
-  os.system("mkdir /root/.local/share/nvim")
-  os.system("rm -rf /root/.local/share/nvim")
-  os.system("cp /root/.dotfiles/.local/share/nvim /root/.local/share/")
