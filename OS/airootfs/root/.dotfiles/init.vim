@@ -25,9 +25,6 @@ if !has('nvim')
     set t_Co=256
 endif
 
-" Use English as default
-language en_US.utf-8
-
 filetype plugin indent on
 syntax enable
 
@@ -748,10 +745,4 @@ function! StatuslineTabWarning()
 
     return b:statusline_tab_warning
 endfunction
-"}
-
-"{ Some good references
-" 1. https://gist.github.com/suderman/1243665
-" 2. https://gist.github.com/autrimpo/f40e4eda233977dd3a619c6083d9bebd
-" 3. https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f
 "}
