@@ -3,9 +3,9 @@
 import os
 
 os.system("mkdir /root/persistent")
-longcmd = os.popen("df -h / | grep \"/dev\"")
+longcmd = os.popen("df -h /run/archiso/bootmnt | grep \"/dev\"").read
 longarr = longcmd.split(" ")
-partition = longcmd[0]
+partition = longarr[0]
 drive = partition[:-1]
-newpartition = drive += "3"
+newpartition = drive + "3"
 os.system("mount " + newpartition + " /root/persistent")
