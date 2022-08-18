@@ -15,10 +15,11 @@ sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | sudo fdisk /dev/$device
 EOF
 
 device+="3"
+echo "Waiting for partition to finish being created"
+sleep 10
 sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | sudo fdisk /dev/$device
   q # quit
 EOF
-echo "Waiting for partition to finish being created"
 while ! (lsblk | grep -q "$device")
 do
   sleep 2.5
