@@ -14,12 +14,12 @@ sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | sudo fdisk /dev/$device
   w # write partition
 EOF
 
-device+="3"
 echo "Waiting for partition to finish being created"
 sleep 10
 sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | sudo fdisk /dev/$device
   q # quit
 EOF
+device+="3"
 while ! (lsblk | grep -q "$device")
 do
   sleep 2.5
