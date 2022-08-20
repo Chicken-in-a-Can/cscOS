@@ -1,9 +1,16 @@
 #!/bin/bash
+echo "Devices: "
+echo ""
 lsblk
+echo ""
 read -p "What device do you want to install cscOS on: " device
 
 img=$(ls | grep "cscOS-")
-sudo dd if=$img of=/dev/$device
+size=$(stat -c"%s" $img)
+size=$((size/1048576))
+echo "Flashing $img to /dev/$device, image size = $size MiB"
+sudo dd if=$img of=/dev/$device status=progress
+echo "Image flashed, finishing touches being applied"
 
 sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | sudo fdisk /dev/$device
   n # new partition
