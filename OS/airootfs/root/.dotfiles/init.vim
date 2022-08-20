@@ -488,10 +488,6 @@ if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 endif
 
-nnoremap <up> :echoerr "Don't use arrow keys, use h, j, k, l instead!"<CR>
-nnoremap <down> :echoerr "Don't use arrow keys, use h, j, k, l instead!"<CR>
-nnoremap <right> :echoerr "Don't use arrow keys, use h, j, k, l instead!"<CR>
-nnoremap <left> :echoerr "Don't use arrow keys, use h, j, k, l instead!"<CR>
 "}
 
 "{ UI settings
