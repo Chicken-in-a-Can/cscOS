@@ -1,1 +1,1 @@
-/usr/lib/systemd/systemd/defaultwall.service
+/usr/lib/systemd/system/defaultwall.service
