@@ -1,8 +1,1 @@
-[Unit]
-Description=Change default wallpaper for cscOS
-
-[Service]
-ExecStart=/root/.wallpaper/defaultwall.sh
-
-[Install]
-WantedBy=multi-user.target
+/usr/lib/systemd/systemd/defaultwall.service
