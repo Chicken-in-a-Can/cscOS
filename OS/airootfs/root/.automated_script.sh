@@ -12,7 +12,6 @@ script_cmdline ()
 
 automated_script ()
 {
-    /root/.wallpaper/defaultwall.sh
     local script rt
     script="$(script_cmdline)"
     if [[ -n "${script}" && ! -x /tmp/startup_script ]]; then
