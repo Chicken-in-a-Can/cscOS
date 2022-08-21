@@ -152,5 +152,8 @@ xorg-xauth
 yaml-cpp
 zsh
 
+# Testing packages
+lxdm
+
 # AUR packages
 yay
