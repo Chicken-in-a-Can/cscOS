@@ -16,3 +16,6 @@ if not os.path.exists("/root/persistent"):
   os.system("cp -r /root/.dotfiles/neofetch /root/.config")
   os.system("mkdir /root/.config/nvim")
   os.system("cp /root/.dotfiles/init.vim /root/.config/nvim")
+  
+  os.system("kquitapp5 plasmashell")
+  os.system("kstart5 plasmashell")
