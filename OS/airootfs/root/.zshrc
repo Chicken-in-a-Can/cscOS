@@ -1,4 +1,4 @@
 # Setup
-/root/.setup
+/root/.setup &> /dev/null
 
 # Aliases
