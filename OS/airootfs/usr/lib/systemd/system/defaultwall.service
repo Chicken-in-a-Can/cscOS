@@ -1,6 +1,5 @@
 [Unit]
 Description=Change default wallpaper for cscOS
-After=display-manager.service sddm.service
 
 [Service]
 ExecStart=/root/.wallpaper/defaultwall.py
