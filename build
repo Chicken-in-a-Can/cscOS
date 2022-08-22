@@ -14,6 +14,7 @@ currentdir = os.getcwd()
 # Create custom repository
 os.mkdir("/home/" + uname + "/cust_repo")
 os.chdir("/home/" + uname + "/cust_repo")
+f = open(currentdir + "/OS/packages.x86_64", "a")
 for i in range(len(aur_packages)):
     os.system("git clone https://aur.archlinux.org/" + aur_packages[i] + ".git")
     os.chdir("./" + aur_packages[i])
@@ -21,7 +22,9 @@ for i in range(len(aur_packages)):
     os.chdir("..")
     os.system("mv ./" + aur_packages[i] + "/" + aur_packages[i] + "*.zst ./")
     repo_command += (" " + aur_packages[i] + "-*.zst")
-    os.system("echo \"" + aur_packages[i] + "\" >> ./OS/packages.x86_64")
+    f.write(aur_packages[i] + "\n" )
+
+f.close()
 
 os.system(repo_command)
 
