@@ -21,6 +21,7 @@ for i in range(len(aur_packages)):
     os.chdir("..")
     os.system("mv ./" + aur_packages[i] + "/" + aur_packages[i] + "*.zst ./")
     repo_command += (" " + aur_packages[i] + "-*.zst")
+    os.system("echo \"" + aur_packages[i] + "\" >> ./OS/packages.x86_64")
 
 os.system(repo_command)
 
