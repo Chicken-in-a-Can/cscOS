@@ -8,14 +8,6 @@ read -p "What device do you want to install cscOS on: " device
 img=$(ls | grep "cscOS-")
 size=$(stat -c"%s" $img)
 size=$((size/1048576))
-read -p "Are you sure you would like to install cscOS to /dev/$device? The device will be wiped (Y/n) " yn
-if (($yn == "n" || $yn == "N" || $yn == "no" || $yn == "No"))
-then
-  echo "cscOS installation aborted"
-  exit 0
-fi
-echo "cscOS installation will begin in 5 seconds"
-sleep 5
 echo "Flashing $img to /dev/$device, image size = $size MiB"
 sudo dd if=$img of=/dev/$device status=progress
 echo "Image flashed, finishing touches being applied"
@@ -41,4 +33,3 @@ do
 done
 sudo mkfs.ext4 /dev/$device
 echo "Bootable drive created"
-exit 0
