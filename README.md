@@ -16,6 +16,7 @@ create an `ext4` partition as the third partition on the drive, and it'll get mo
    - Python
    - NodeJS
  - Relatively easy to use with KDE, Firefox, Konsole, SDDM, and other additional software
+ - Single arg support on build script
  
 ## Build & install
  1. Run `./build`
@@ -23,12 +24,16 @@ create an `ext4` partition as the third partition on the drive, and it'll get mo
  2. Run `./install`
    - You'll be prompted for sudo password. **Don't** run script with sudo or as root
  3. Boot to drive on laptop/desktop
+ 4. Multiple arg support for build script
+ 5. Arg support for install script
+ 6. Checks for install script to prevent potential bricking
  
 ## Build & installation dependencies
  - `archiso`
  - `git`
- - `python`
+ - `python >= 3.10`
  - `grep`
+ - `dd`
  - Arch Linux
  
 ## Current to-do
