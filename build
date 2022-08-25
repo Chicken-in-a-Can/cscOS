@@ -6,10 +6,30 @@ import sys
 import shutil
 
 # Variable initialization
+# Add aur package names to `aur_packages` array to install more aur packages
 aur_packages = ["yay"]
 uname = os.getlogin()
 repo_command = "repo-add custom.db.tar.gz"
 currentdir = os.getcwd()
+given_args = sys.argv
+std_packages_given = False
+std_packages = []
+
+# Args handler
+match given_args[1]:
+    case "-h":
+        print("cscOS build script")
+        print("-h                              Print this help message")
+        print("-a AUR_PACKAGE_NAMES            Add aur packages to cscOS")
+        print("-p PACKAGE_NAMES                Add packages from pacman to cscOS")
+    case "-a":
+        if len(given_args) <= 2:
+            sys.exit("Please run again with packages")
+        for i in range (len(given_args):
+            if i <= 2:
+                i = 2
+            aur_packages += given_args
+            
 
 # Create custom repository
 os.mkdir("/home/" + uname + "/cust_repo")
@@ -25,6 +45,8 @@ for i in range(len(aur_packages)):
     repo_command += (" " + aur_packages[i] + "-*.zst")
     # Append package that was built to packages list
     f.write(aur_packages[i] + "\n" )
+
+# Add pacman packages
 
 # Closing packages file after done with it
 f.close()
