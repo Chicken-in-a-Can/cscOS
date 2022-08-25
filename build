@@ -28,8 +28,16 @@ match given_args[1]:
         for i in range (len(given_args):
             if i <= 2:
                 i = 2
-            aur_packages += given_args
-            
+            aur_packages += given_args[i]
+    case "-p":
+        if len(given_args) <= 2:
+            sys.exit("Please run again with packages")
+        std_packages_given = True
+            for i in range (len(given_args)):
+            if i <= 2:
+                i = 2
+            std_packages += given_args[i]
+
 
 # Create custom repository
 os.mkdir("/home/" + uname + "/cust_repo")
@@ -47,6 +55,9 @@ for i in range(len(aur_packages)):
     f.write(aur_packages[i] + "\n" )
 
 # Add pacman packages
+if std_packages_given:
+    for i in range (len(std_packages)):
+        f.write(std_packages[i] + "\n")
 
 # Closing packages file after done with it
 f.close()
