@@ -2,7 +2,8 @@
 Arch-based distro. Senior year project  
 Had the idea to create a distro that I could use for persistent storage for code so I could just keep a flash drive on me and in case
 anything happened and I couldn't use my laptop, I could still code and keep my code across sessions. So the installer script will install cscOS as well as
-create an `ext4` partition as the third partition on the drive, and it'll get mounted automatically on start. The 3rd partition is persistent across reboots. Based on the releng profile, built with archiso. I've also set up a [wiki](https://github.com/Chicken-in-a-Can/cscOS/wiki) for any cscOS-specific things, as well as a bit of info on what I'm doing, and how to do some of it if you want.
+create an `ext4` partition as the third partition on the drive, and it'll get mounted automatically on start. The 3rd partition is persistent across reboots. Based on the releng profile, built with archiso. I've also set up a [wiki](https://github.com/Chicken-in-a-Can/cscOS/wiki) for any cscOS-specific things, as well as a bit of info on what I'm doing, and how to do some of it if you want.  
+Official Operating System of the [MHS Comp-Sci Club](https://secure.payk12.com/school/martinhs/787/3155/item/213063).
 
 ## Current features
  - Persistent partition mounted to `/root/persistent`
