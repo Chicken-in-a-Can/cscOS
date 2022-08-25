@@ -16,7 +16,7 @@ create an `ext4` partition as the third partition on the drive, and it'll get mo
    - Python
    - NodeJS
  - Relatively easy to use with KDE, Firefox, Konsole, SDDM, and other additional software
- - Single arg support on build script
+ - Single arg support on build script to allow for last-minute package additions
  
 ## Build & install
  1. Run `./build`
@@ -29,12 +29,15 @@ create an `ext4` partition as the third partition on the drive, and it'll get mo
  6. Checks for install script to prevent potential bricking
  
 ## Build & installation dependencies
+Most of these come pre-installed
  - `archiso`
  - `git`
  - `python >= 3.10`
  - `grep`
  - `dd`
- - Arch Linux
+ - `lsblk`
+ - `sed`
+ - **Arch Linux**
  
 ## Current to-do
  - Make it change wallpaper from default KDE to default cscOS not just when you open terminal
