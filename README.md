@@ -43,19 +43,24 @@ Most of these come pre-installed
 ## Current to-do
  - Make it change wallpaper from default KDE to default cscOS not just when you open terminal
  - Occasionally /dev/sdc is mounted for live USB instead of /dev/sdc1, so mounting script fails
+   - > sdc can be exchanged for any device, I just already have 2 drives in my laptop
    - Reboot to fix for now
- - Make it look good
- - Other appearance improvements
+   - I haven't seen this in a while though
+ - Make it look good in general
+ - Other minor appearance improvements
+   - Probably custom Firefox appearance, not just that though
  - Any issues submitted
-   - I'll find something to fix probably
- - Update README with screenshots
+   - I'll find something to fix probably anyways
 
 ## Releases
-Github doesn't let me put a release over 2GB, so use the build script I created  
+Github doesn't let me put a release over 2GB, and KDE and Firefox are big, so use the build script I created  
 Just run: `./build`  
 Don't run with `sudo` or `doas`  
 To install on a flash drive, run `./install`  
+It may take a bit of time to build, ranging between 2 hours and just a few minutes depending on the PC.  
 
 ## Screenshots
+Current cscOS desktop & terminal. It's kinda rough  
+  
 ![cscOS-liveUSB](https://raw.githubusercontent.com/chicken-in-a-can/cscOS/master/Media/cscOS_001.png)
 ![cscOS-liveUSB](https://raw.githubusercontent.com/chicken-in-a-can/cscOS/master/Media/cscOS_002.png)
